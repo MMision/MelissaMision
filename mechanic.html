@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#1f606f">
+<meta name="msapplication-TileColor" content="#00aba9">
+<meta name="theme-color" content="#ffffff">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+    <title> Melissa Mision </title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="scripts.js"></script>
+  </head>
+  <body>
+    <style>
+    body {
+    margin: 0px;
+    border: 0px;
+  }
+  </style>
+ <div id="header">
+    <div id="space">
+      <div id="navbar">
+         <a href="index.html" id="linkref">HOME</a>
+         <a href="Work.html" id="linkref">WORK</a>
+         <a href="About.html" id="linkref">ABOUT</a>
+            </div>
+                <div id="logo2">
+      </div>
+</div>
+</div>
+</center>
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="graphicDesign/Mechanic/Store 1.jpg" style="    
+    width:134%;
+    height: 80%;
+    display: inline-block;
+    transform: scale(.84);
+    margin-left: -11%;
+    margin-top: -5%;">
+      <div class="text">Hardware Store Branding</div>
+      <div class="vertStuff"></div>
+      <div class="textSummary">A hardware store marketed towards both an older and younger generation through the theme of vintage inspired designs. </div>
+    </div>
+
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="graphicDesign/Mechanic/Store 2.jpg" style="    
+    width:134%;
+    height: 80%;
+    display: inline-block;
+    transform: scale(.84);
+    margin-top: -5%;
+    margin-left: -11%;">
+      <div class="text">Hardware Store Branding</div>
+      <div class="vertStuff"></div>
+      <div class="textSummary">A hardware store marketed towards both an older and younger generation through the theme of vintage inspired designs. </div>
+    </div>
+
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="graphicDesign/Mechanic/weekly sale ad mockup.jpg" style="    
+    width:134%;
+    height: 80%;
+    margin-top: -5%;
+    display: inline-block;
+    transform: scale(.84);
+    margin-left: -11%;">
+      <div class="text">Hardware Store Branding</div>
+      <div class="vertStuff"></div>
+      <div class="textSummary">A hardware store marketed towards both an older and younger generation through the theme of vintage inspired designs. </div>
+    </div>
+
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="graphicDesign/Mechanic/front of card business mockup.jpg" style="    
+    width:134%;
+    height: 80%;
+    display: inline-block;
+    margin-top: -5%;
+    transform: scale(.84);
+    margin-left: -11%;">
+      <div class="text">Hardware Store Branding</div>
+      <div class="vertStuff"></div>
+      <div class="textSummary">A hardware store marketed towards both an older and younger generation through the theme of vintage inspired designs. </div>
+    </div>
+
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="graphicDesign/Mechanic/back of business card mockup.jpg" style="    
+    width:134%;
+    height: 80%;
+    margin-top: -5%;
+    display: inline-block;
+    transform: scale(.84);
+    margin-left: -11%;">
+      <div class="text">Hardware Store Branding</div>
+      <div class="vertStuff"></div>
+      <div class="textSummary">A hardware store marketed towards both an older and younger generation through the theme of vintage inspired designs. </div>
+    </div>
+
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+<div class="footer">
+  <a href="graphicDesign.html" id="linkref2">BACK TO TOP</a>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+  </body>
+</html>
