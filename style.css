@@ -188,6 +188,15 @@ a:visited: {
     width: 100%;
     display: block;
 }
+#ts {
+    position: relative;
+    transform: scale(.9);
+    margin: 0 auto;
+    margin-top: -6%;
+    height: 100%;
+    width: 100%;
+    display: block;
+}
 #nested {
     position: relative;
     margin: auto;
@@ -779,7 +788,7 @@ h3 {
     width: 183px;
     top: 49%;
 }
-#smoking {
+#ts {
     margin-bottom: 8%;
 }
 h4 {
@@ -863,7 +872,7 @@ h5 {
     width: 183px;
     top: 39%;
 }
-#smoking, #waterThumb {
+#ts, #waterThumb {
     margin-bottom: 11%;
 }
 #dash {
@@ -891,7 +900,7 @@ h5 {
     transform: scale(0.8);
     left: -34%;
 }
-#smoking, #waterThumb {
+#ts, #waterThumb {
     margin-bottom: 8%;
 }
 #dash {
@@ -997,6 +1006,11 @@ h5 {
     transform: scale(.8);
     margin-left: 82%;
     margin-top: -106%;
+}
+#ts {
+    transform: scale(.8);
+    margin-left: -4%;
+    margin-top: -16%;
 }
 .footer {
     font-size: 18px;
@@ -1144,6 +1158,12 @@ h5 {
     margin-bottom: 27%;
     margin-top: -106%;
 }
+#ts {
+    transform: none;
+    margin-left: 13%;
+    margin-bottom: 27%;
+    margin-top: -16%;
+}
 #logo2 {
     top: 8%;
     transform: scale(1.5);
@@ -1276,6 +1296,11 @@ a:visited: {
 #smoking, #waterThumb {
     top: 116%;
     left: 114%;
+    margin-bottom: 20%;
+}
+#ts {
+    margin-top: -8%;
+    left: -1%;
     margin-bottom: 20%;
 }
 #nested {
