@@ -665,8 +665,9 @@ a:visited {
 
 /* Caption text */
 .text {
-    color: #333333;
-    font-size: 34px;
+    font-family: Merriweather-BlackItalic, serif;
+    font-size: 40px;
+    color: #2c6576;
     position: absolute;
     bottom: 8px;
     width: 97%;
@@ -676,15 +677,18 @@ a:visited {
     display: inline-block;
 }
 .textSummary {
-    color: #333333;
-    font-size: 18px;
+    color: #0000008a;
+    font-family: NunitoSans-Light, sans-serif;
+    font-size: 14px;
     position: absolute;
     bottom: 8px;
     width: 77%;
     text-align: left;
     margin-left: 127%;
     top: 39%;
+    line-height: 1.6;
 }
+
 .vertStuff {
     background-color: #a5a5a5;
     height: 300px;
