@@ -315,9 +315,8 @@ h4 {
 }
 h5 {
     font-family: NunitoSans-Light, sans-serif;
-    font-style: lighter;
     font-size: 14px;
-    color: #505051;
+    color: #0000008a;
     padding: 0px 0px 0px 0px;
     /* text-shadow: 1px 1px 6px #7f7f7f; */
     /* text-shadow: 1px 1px 8px #454545; */
@@ -1414,10 +1413,7 @@ h4 {
     height: 14px;
 }
 h5 {
-    font-family: NunitoSans-Light, sans-serif;
-    font-style: lighter;
     font-size: 14px;
-    color: #0000008a;
     padding: 0px 0px 0px 0px;
     /* text-shadow: 1px 1px 6px #7f7f7f; */
     /* text-shadow: 1px 1px 8px #454545; */
