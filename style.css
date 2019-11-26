@@ -1266,9 +1266,6 @@ body {
     padding-top: 8px;
     padding-bottom: 8px;
 }
-a:hover {
-    color: #a8c3c6 !important;
-}
 a:active {
     color: #a8c3c6 !important;
     border: none;
