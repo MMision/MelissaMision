@@ -23,7 +23,7 @@ video {
      top: 0%; 
     left: 0;
     z-index: -100;
-    min-width: 100%;
+    min-width: 120%;
     min-height: 100%;
 }
 #overlay {
@@ -981,7 +981,7 @@ h5 {
     margin-top: 42%;
 }
 #navbar {
-    width: 310px;
+    width: 307px;
     font-family: Nunito Sans, sans-serif;
     font-size: 18px;
     top: 23%;
@@ -1123,7 +1123,7 @@ h5 {
     font-size: 26px;
 }
 #navbar {
-    width: 361px;
+    width: 307px;
     font-size: 21px;
     left: 59%;
     top: 18%;
@@ -1238,7 +1238,7 @@ body {
 }
 #navbar {
     height: 50px;
-    width: 327px;
+    width: 307px;
     font-family: Nunito Sans, sans-serif;
     font-size: 14px;
     z-index: 3;
@@ -1326,6 +1326,8 @@ a:visited: {
     padding-bottom: 0px;
     z-index: 2;
     text-align: center;
+        width: 98%;
+
 }
 #nested3 {
     margin: auto;
@@ -1390,7 +1392,7 @@ h3 {
     width: 288px;
     text-shadow: 3px 2px 7px #2a2a2a;
     margin: auto;
-    top: 116%;
+    top: 128%;
     right: 0;
     bottom: 0;
     left: -92px;
@@ -1400,31 +1402,32 @@ h3 {
 h4 {
     font-family: Merriweather-BlackItalic, serif;
     font-style: italic;
-    font-size: 55px;
-    color: #505051;
+    font-size: 40px;    
+    color: #2c6576;
+
     padding: 0px 0px 0px 0px;
     /* text-shadow: 1px 1px 6px #7f7f7f; */
     /* text-shadow: 1px 1px 8px #454545; */
     letter-spacing: 5px;
-    margin-left: -247px;
+    margin-left: -151px;
     text-align: left;
     height: 14px;
 }
 h5 {
     font-family: NunitoSans-Light, sans-serif;
     font-style: lighter;
-    font-size: 18px;
-    color: #505051;
+    font-size: 14px;
+    color: #0000008a;
     padding: 0px 0px 0px 0px;
     /* text-shadow: 1px 1px 6px #7f7f7f; */
     /* text-shadow: 1px 1px 8px #454545; */
     letter-spacing: 0px;
-    margin-left: -246px;
+    margin-left: -154px;
     text-align: left;
     top: 50px;
-    width: 443px;
+    width: 343px;
     height: 500px;
-    line-height: 1.4;
+    line-height: 1.6;
 }
 #dash {
     border: none;
@@ -1441,30 +1444,30 @@ h5 {
     margin-top: 12%;
     background: none;
     padding-top: 1%;
-    padding-bottom: 8.6%;
-    padding-left: 21%;
+    padding-bottom: 4.6%;
+    padding-left: 15%;
     padding-right: 0px;
     z-index: 5;
-    width: 39%;
-    height: 80%;
-    margin-left: 61%;
-    /* border-bottom: solid 5px #454545; */
+    width: 33%;
+    height: 100%;
+    margin-left: 65%;
+    background-color: #ffffffc7;
 }
 #resume {
     margin-top: -343px;
-    margin-left: -695px;
+    margin-left: -454px;
     padding-right: 0px;
     color: white;
     font-family: NunitoSans-Light, sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bolder;
 }
 a:link {
-    color: #bfbfbf;
+    color: #2c6576;
     text-decoration: none;
 }
 a:visited {
-  color: #cccccce6;
+  color: #5d5d5d;
   text-decoration: none;
 }
 #profilePic {
