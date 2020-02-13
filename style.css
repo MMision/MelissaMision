@@ -373,18 +373,14 @@ a:visited {
 }
 #profilePic {
     /* background-size: cover; */
-    width: 228%;
-    height: 92%;
+    width: 100%;
     position: absolute;
     display: block;
     margin: auto;
-    top: -32%;
     right: 0;
     bottom: 0;
-    left: -64%;
     z-index: 0;
     /* box-shadow: 2px 3px 9px #23232394; */
-    transform: scale(.4);
 }
 /*Work Styles*/
 
@@ -751,18 +747,13 @@ a:visited {
 }
 #profilePic {
     /* background-size: cover; */
-    width: 323%;
-    height: 117%;
+    width: 100%;
     position: absolute;
     display: block;
     margin: auto;
-    top: -35%;
     right: 0;
     bottom: 0;
-    left: -111.5%;
     z-index: 0;
-    /* box-shadow: 2px 3px 9px #23232394; */
-    transform: scale(.28);
 }
 h1 {
     font-size: 111px;
@@ -838,18 +829,14 @@ h5 {
 #profilePic {
 /*    background: transparent url(profilePic.jpg) scroll no-repeat 0 0;
 */    /* background-size: cover; */
-    width: 289%;
-    height: 117%;
+    width: 100%;
     position: absolute;
     display: block;
     margin: auto;
-    top: -31%;
     right: 0;
     bottom: 0;
-    left: -94.5%;
     z-index: 0;
     /* box-shadow: 2px 3px 9px #23232394; */
-    transform: scale(.32);
 }
 #summaryOnly {
     position: relative;
@@ -927,18 +914,13 @@ h3 {
 @media only screen and (min-width: 414px){
 #profilePic {
     /* background-size: cover; */
-    width: 289%;
-    height: 117%;
+    width: 100%;
     position: absolute;
     display: block;
     margin: auto;
-    top: -27%;
     right: 0;
     bottom: 0;
-    left: -89.5%;
     z-index: 0;
-    /* box-shadow: 2px 3px 9px #23232394; */
-    transform: scale(.35);
 }
 #dash {
     margin-top: -51%;
@@ -1078,18 +1060,13 @@ h5 {
 }
 #profilePic {
     /* background-size: cover; */
-    width: 289%;
-    height: 117%;
+    width: 100%;
     position: absolute;
     display: block;
     margin: auto;
-    top: 9%;
     right: 0;
     bottom: 0;
-    left: -46.5%;
     z-index: 0;
-    /* box-shadow: 2px 3px 9px #23232394; */
-    transform: scale(.65);
 }
 #dash {
     margin-top: -42%;
@@ -1185,18 +1162,13 @@ h5 {
 }
 #profilePic {
     /* background-size: cover; */
-    width: 289%;
-    height: 117%;
+    width: 100%;
     position: absolute;
     display: block;
     margin: auto;
-    top: 35%;
     right: 0;
     bottom: 0;
-    left: -13.5%;
     z-index: 0;
-    /* box-shadow: 2px 3px 9px #23232394; */
-    transform: scale(.88);
 }
 #summaryOnly {
     margin-top: 70%;
@@ -1468,18 +1440,13 @@ a:visited {
   text-decoration: none;
 }
 #profilePic {
-    /* background-size: cover; */
+    background-size: cover;
     width: 100%;
-    height: 92%;
     display: block;
     margin: auto;
-    top: 6%;
     right: 0;
     bottom: 0;
-    left: -33%;
     z-index: 0;
-    /* box-shadow: 2px 3px 9px #23232394; */
-    transform: scale(.6);
 }
 #frontEnd {
     border-right: 6px solid white;
