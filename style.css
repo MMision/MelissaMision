@@ -209,7 +209,8 @@ a:visited: {
 #nested4 {
     position: relative;
     margin: auto;
-    top: -4px;
+    top: 0;
+    padding-top: 9.8%;
     right: 0;
     bottom: 0;
     left: 0;
@@ -382,14 +383,9 @@ a:visited {
     letter-spacing: 0px;
     /* padding-left: 46%; */
     text-align: center;
-    margin-top: 32.5%;
     position: relative;
 }
-.secondSet {
-    margin-top: 3%;
-    margin-bottom: 3%;
-}
-.thirdSet {
+.firstSet, .secondSet, .thirdSet {
     margin-top: 3%;
     margin-bottom: 3%;
 }
@@ -810,7 +806,6 @@ h5 {
     margin-top: 57%;
 }*/
 .firstSet {
-    margin-top: 28.5%;
     margin-bottom: 3%;
 }
 .footer {
@@ -912,7 +907,6 @@ h5 {
 }
 .firstSet {
     font-size: 18px;
-    margin-top: 25.5%;
 }
 .retirement, .wayfinding, .byeThumb {
     transform: scale(.8);
@@ -1354,11 +1348,17 @@ a:visited {
     bottom: 0;
     z-index: 0;
 }
+.frontEnd {
+    margin-top: 1%;
+}
+.graphicDesign, .fineArt {
+    margin-top: 4%;
+}
 .frontEnd, .graphicDesign, .fineArt {
     border-right: 6px solid white;
     height: 400px;
+    padding-top: 1%:
     width: 100%;
-    margin-top: 1%;
     right: 0px;
     bottom: 0px;
     display: block;
@@ -1375,14 +1375,9 @@ a:visited {
     /* text-shadow: 1px 1px 0px #454545; */
     letter-spacing: 0px;
     /* padding-left: 46%; */
+        margin-top: 1%;
+
     text-align: center;
-    margin-top: 12.5%;
-}
-.secondSet {
-    margin-top: 3%;
-}
-.thirdSet {
-    margin-top: 3.5%;
 }
 #one1 {
     border-right: 6px solid white;
