@@ -602,9 +602,9 @@ a:visited {
 
 /* Caption text */
 .text {
-    font-family: Merriweather-BlackItalic, serif;
+    font-family: NunitoSans-Light, sans-serif;
     font-size: 40px;
-    color: #2c6576;
+    color: #066B94;
     position: absolute;
     bottom: 8px;
     width: 97%;
@@ -612,6 +612,7 @@ a:visited {
     margin-left: 127%;
     top: 26%;
     display: inline-block;
+    font-weight: bold;
 }
 .textSummary {
     color: #0000008a;
