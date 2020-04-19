@@ -1,0 +1,237 @@
+/*Universal Styles*/
+* {
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+/*    max-width: 1536px;*/
+/*    position: relative;*/
+    margin: 0 auto;
+    font-family: 'Merriweather', serif;
+/*    width: 1440px;
+    height: 900px;*/
+}
+
+/*Media Queries 360x640*/
+
+@media only screen and (min-width: 1px){
+/*video {
+    object-fit: cover;
+}*/
+video {
+    position: fixed;
+     top: 0%; 
+    left: 0;
+    z-index: -100;
+    min-width: 103%;
+    min-height: 100%;
+}
+.btn {
+    display: block;
+    background: #d67f12;
+    color: white;
+    width: 9rem;
+    height: 3rem;
+    position: relative;
+    margin: auto;
+    right: 0;
+    bottom: 0;
+    z-index: 9;
+    left: 0;
+    margin-top: 3%;
+    text-align: center;
+}
+a:link {
+    color: #2c6576;
+    text-decoration: none;
+}
+a:visited {
+  color: #5d5d5d;
+  text-decoration: none;
+}
+
+#overlay {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: -100;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    opacity: 0.2;
+    object-fit: cover;
+    background: transparent scroll no-repeat 0 0;
+}
+#other {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: -100;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+/*    opacity: 0.2;*/
+    z-index: 2;
+    background-color: #0000007a;
+    object-fit: cover;
+/*    background: transparent scroll no-repeat 0 0;*/
+}
+#linkref {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: white;
+    font-size: 1.3rem;
+    text-decoration: none;
+    height: 500px;
+    position: relative;
+    text-align: center;
+    line-height: 2.5;
+}
+a:hover {
+    color: black !important;
+}
+a:active {
+    color: #a8c3c6 !important;
+    border: none;
+}
+a:visited: {
+    color: #cccccc !important;
+}
+
+#nested {
+    position: relative;
+    margin: auto;
+    margin-top: 50%;
+    right: 0;
+    bottom: 0;
+    z-index: 9;
+    left: 0;
+    text-align: center;
+}
+
+/*Mainpage Styles*/
+
+h1 {
+    color: white;
+    font-family: 'Bebas Neue', curive;
+/*    font-style: normal;
+*/    font-size: 10rem;
+    /* text-shadow: 1px 1px 6px #7f7f7f; */
+    text-shadow: 3px 2px 7px #2a2a2a;
+    letter-spacing: 5px;
+    margin: 0 0 0 0;
+}
+h2 {
+    color: white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: lighter;
+    letter-spacing: 20px;
+    font-size: .85rem;
+    line-height: 1;
+    color: white;
+    width: 100%;
+    text-shadow: 3px 2px 7px #2a2a2a;
+    margin: auto 0;
+}
+}
+/*Media Queries 320*/
+
+@media only screen and (min-width: 320px){
+    h1 {
+        font-size: 4rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+        letter-spacing: 10px;
+    }
+    #nested {
+        margin-top: 55%;
+    }
+    .btn {
+        margin-top: 9%;
+    }
+}
+/*Media Queries 360*/
+
+@media only screen and (min-width: 360px){
+    #nested {
+        margin-top: 59%;
+    }
+    h1 {
+        font-size: 4rem;
+    }
+    h2 {
+    margin-top: 2%;
+    font-size: 1rem;
+    letter-spacing: 12px;
+}
+    .btn {
+    margin-top: 8%;
+    }
+}
+
+/*Media Queries 375*/
+
+@media only screen and (min-width: 375px){
+#nested {
+    margin-top: 65%;
+}
+}
+@media only screen and (min-width: 411px){
+    #nested {
+    margin-top: 64%;
+}
+    h1 {
+        font-size: 5rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+}
+@media only screen and (min-width: 414px){
+    #nested {
+    margin-top: 62%;
+}
+}
+@media only screen and (min-width: 768px){
+#nested {
+    margin-top: 51%;
+}
+}
+@media only screen and (min-width: 1024px){
+h1 {
+    font-size: 9rem;
+}
+#nested {
+    margin-top: 48%;
+}
+/*h2 {
+    font-size: 61px;
+    letter-spacing: 26px;
+    left: 1.5%;
+}*/
+
+}
+@media only screen and (min-width: 1025px){
+body {
+        max-width: 1536px !important;
+}
+
+/*Mainpage Styles*/
+
+h1 {
+    font-size: 7.7rem;
+}
+h2 {
+    font-size: 3rem;
+}
+.btn {
+    width: 9rem;
+    height: 3rem;
+    margin-top: 3%;
+}
+#nested {
+    margin-top: 15%;
+}
+}

@@ -1,0 +1,212 @@
+/*Universal Styles*/
+* {
+    box-sizing: border-box;
+}
+body {
+    background: white;
+    width: 100%;
+/*    max-width: 1536px;*/
+/*    position: relative;*/
+    margin: 0 auto;
+    font-family: 'Merriweather', serif;
+/*    width: 1440px;
+    height: 900px;*/
+}
+
+/*Media Queries 360x640*/
+
+@media only screen and (min-width: 1px){
+/*video {
+    object-fit: cover;
+}*/
+
+p {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #454545;
+    line-height: 0;
+    margin-top: 0.5%;
+    font-size: 1rem;
+}
+#header {
+/*    background: #ededed;
+*/    width: 100%;
+    display: block;
+    height: 80px !important;
+}
+#linkref {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: white;
+    font-size: 1.3rem;
+    text-decoration: none;
+    height: 500px;
+    position: relative;
+    text-align: center;
+    line-height: 2.5;
+}
+a:hover {
+    color: black !important;
+}
+a:active {
+    color: #a8c3c6 !important;
+    border: none;
+}
+a:visited: {
+    color: #cccccc !important;
+}
+
+#nested {
+    position: relative;
+    margin: auto;
+    margin-top: -4.8%;
+    right: 0;
+    bottom: 0;
+    z-index: 9;
+    left: 0;
+    text-align: center;
+}
+
+/*Mainpage Styles*/
+
+h2 {
+    color: white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: lighter;
+    letter-spacing: 20px;
+    font-size: .8rem;
+    line-height: 1;
+    color: white;
+    width: 100%;
+    text-shadow: 3px 2px 7px #2a2a2a;
+    margin: auto 0;
+}
+a:active {
+    color: black !important;
+    border: none;
+}
+a:visited: {
+    color: #a8c3c6 !important;
+}
+
+/*Mainpage Styles*/
+
+h1 {
+    display: inline;
+    font-size: 7.7rem;
+    text-align: center;
+    /* text-shadow: 1px 1px 6px #7f7f7f; */
+    letter-spacing: 5px;
+}
+h2 {
+    font-size: 3rem;
+    text-align: center;
+/*    letter-spacing: 11px;
+*/    line-height: 1;
+    width: 100%;
+    text-shadow: 3px 2px 7px #2a2a2a;
+    margin: auto 0;
+}
+.btn {
+    display: block;
+    background: #d67f12;
+    color: white;
+    width: 9rem;
+    height: 3rem;
+    position: relative;
+    margin: auto;
+    right: 0;
+    bottom: 0;
+    z-index: 9;
+    left: 0;
+    margin-top: 3%;
+    text-align: center;
+}
+a:link {
+    color: #2c6576;
+    text-decoration: none;
+}
+a:visited {
+  color: #5d5d5d;
+  text-decoration: none;
+}
+.question1 {
+    background: linear-gradient(to left, #006085, #010735);
+    font-family: 'Bebas Neue', curive;
+    font-size: 2.7rem;
+    color: #d67f12;
+    margin: 0 0 0 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    position: relative;
+}
+#nestedAgain {
+    position: relative;
+    margin: 0 0 0 0;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+.boxOneText, .boxTwoText, .boxThreeText {
+    margin: 0 0 0 0;
+    text-align: center;
+    position: relative;
+    line-height: 9;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #454545;
+    width: 100%;
+    height: 540px;
+    background: #ededed;
+    display: inline-block;
+}
+.boxOne, .boxTwo, .boxThree {
+    width: 28%;
+    margin: 0 0 0 4%;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+}
+
+
+/*Media Queries 320*/
+
+@media only screen and (min-width: 320px){
+}
+/*Media Queries 360*/
+
+@media only screen and (min-width: 360px){
+
+}
+
+/*Media Queries 375*/
+
+@media only screen and (min-width: 375px){
+
+}
+@media only screen and (min-width: 411px){
+}
+@media only screen and (min-width: 414px){
+
+}
+@media only screen and (min-width: 768px){
+}
+@media only screen and (min-width: 1024px){
+h1 {
+    font-size: 9rem;
+}
+/*h2 {
+    font-size: 61px;
+    letter-spacing: 26px;
+    left: 1.5%;
+}*/
+
+}
+@media only screen and (min-width: 1025px){
+body {
+        max-width: 1536px !important;
+}
+
+
+
+
