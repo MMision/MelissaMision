@@ -12,6 +12,9 @@ body {
 /*    width: 1440px;
     height: 900px;*/
 }
+html {
+    height: 100%;
+}
 
 /*Media Queries 360x640*/
 
@@ -19,7 +22,14 @@ body {
 /*video {
     object-fit: cover;
 }*/
-
+.gradient {
+    background: linear-gradient(to left, #020625d9, #ffffff00);    
+    background-size: cover;
+    margin: auto;
+    border: 0px;
+    height: 100%;
+    width: 100%;
+}
 p {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     color: #454545;
@@ -129,14 +139,14 @@ a:visited {
   text-decoration: none;
 }
 .question1 {
-    background: linear-gradient(to left, #006085, #010735);
+    background: linear-gradient(to left, #e0682f, #ffffff);
     font-family: 'Bebas Neue', curive;
     font-size: 2.7rem;
     color: #d67f12;
     margin: 0 0 0 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-align: center;
+    text-align: right;
     margin-top: 3%;
     margin-bottom: 3%;
     position: relative;
@@ -148,41 +158,15 @@ a:visited {
     height: 100%;
     display: inline-block;
 }
-.boxOne {
-    background-image: url('peace/camping.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: auto;
-}
-.boxTwo {
-    background-image: url('peace/sunset.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: auto;
-}
-.boxThree {
-    background-image: url('peace/forest.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: auto;
-}
-.boxOne, .boxTwo, .boxThree {
-    width: 28%;
-    margin: 0 0 0 4%;
-    text-align: center;
-    position: relative;
-    display: inline-block;
-}
-.boxOneText, .boxTwoText, .boxThreeText {
+.boxOneText {
     margin: 0 0 0 0;
-    text-align: center;
+    text-align: left;
     position: relative;
     line-height: 9;
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    color: #454545;
+    color: white;
     width: 100%;
     height: 325px;
-    background: #ededed;
     display: inline-block;
 }
 }
@@ -193,12 +177,12 @@ a:visited {
     .question1 {
     font-size: 1.8rem;
 }
-.boxOne, .boxTwo, .boxThree {
+.boxOne {
     height: 200px;
     width: 100%;
-    margin: 0 0 4% 0%;
+    margin: 0 0 0 0%;
 }
-.boxOneText, .boxTwoText, .boxThreeText {
+.boxOneText {
     height: 50px;
     line-height: 3.2;
 }
@@ -243,9 +227,6 @@ a:visited {
 .question1 {
     font-size: 1.8rem;
 }
-#nestedAgain {
-    margin: 1% 0 0 0;
-}
 .boxOne, .boxTwo, .boxThree {
     height: 230px;
 }
@@ -269,19 +250,11 @@ a:visited {
 @media only screen and (min-width: 768px){
 .question1 {
     font-size: 1.8rem;
-    margin-bottom: 0%;
-}
-.boxOne, .boxTwo, .boxThree {
-    height: 430px;
-    width: 44%;
 }
 .boxOne {
-    margin: 0% 3% 0px 4%;
+    height: 430px;
 }
-.boxThree {
-    margin: 4% 3% 4% 4%;
-}
-.boxOneText, .boxTwoText, .boxThreeText {
+.boxOneText {
     height: 79px;
     font-size: 1.5rem;
     line-height: 3.5;
@@ -295,18 +268,18 @@ h1 {
 .question1 {
     font-size: 2.8rem;
 }
-.boxOne, .boxTwo, .boxThree {
+.boxOne {
     height: 430px;
     width: 44%;
     margin: 2% 2% 2% 2%;
 }
-.boxOne, .boxThree{
+.boxOne {
     margin-left: 4%
 }
-.boxOneText, .boxTwoText, .boxThreeText {
+.boxOneText {
     height: 78px;
-    font-size: 1.5rem;
-    line-height: 3.5;
+    font-size: 1rem;
+    line-height: 2;
 }
 }
 
@@ -315,20 +288,21 @@ body {
         max-width: 1536px !important;
 }
 .question1 {
-    margin-bottom: 3%;
+    font-size: 2.7rem;
+    margin-top: 7%;
+    margin-right: 15.25%;
+    margin-bottom: 1%;
+    position: relative;
 }
-.boxOne, .boxTwo, .boxThree {
-    width: 30%;
-    margin: 0px .75% 0 2%;
-    height: 530px;
+.boxOne {
+    width: 28%;
+    margin: 0 0 0 59.25%;
+    height: 430px;
 }
-.boxOneText, .boxTwoText, .boxThreeText {
+.boxOneText {
     height: 78px;
-    font-size: 1.25rem;
-    line-height: 4.255;
-}
-#nestedAgain {
-    margin: 0% 0 0 0;
+    font-size: 1rem;
+    line-height: 2;
 }
 }
 
