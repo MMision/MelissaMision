@@ -40,7 +40,11 @@ video {
   left: 0;
   padding: 0 !important;
   z-index: 9;
+  text-decoration: none;
   margin-top: 3%;
+}
+#linkref {
+    height: 50px;
 }
 .btn:active {
   margin-top: 4% !important;
@@ -49,7 +53,6 @@ video {
   color: #FFFFFF;
   text-align: center;
   width: 9rem;
-  height: 3rem;
   transition: all 0.3s;
   cursor: pointer;
   margin: auto;
@@ -128,7 +131,6 @@ a:visited: {
     color: white;
     font-size: 1.3rem;
     text-decoration: none;
-    height: 500px;
     position: relative;
     text-align: center;
     line-height: 2.5;
@@ -181,6 +183,9 @@ h2 {
         font-size: 1.5rem;
         letter-spacing: 10px;
     }
+    .btn {
+      margin-top: 6%;
+}
 }
 /*Media Queries 360*/
 
@@ -188,12 +193,15 @@ h2 {
 /*    #nested {
         margin-top: 59%;
     }*/
-    h1 {
-        font-size: 4rem;
-    }
+h1 {
+    font-size: 4.5rem;
+}
     h2 {
-    font-size: 1rem;
+    font-size: 1.5rem;
     letter-spacing: 12px;
+}
+.btn {
+      margin-top: 6%;
 }
 }
 
@@ -208,29 +216,52 @@ h2 {
 /*    #nested {
     margin-top: 64%;
 }*/
-    h1 {
-        font-size: 5rem;
-    }
+h1 {
+    font-size: 4.5rem;
+}
     h2 {
         font-size: 2rem;
     }
 }
 /*@media only screen and (min-width: 414px){
 }*/
-/*@media only screen and (min-width: 768px){
-}*/
-/*@media only screen and (min-width: 1024px){
-h1 {
-    font-size: 9rem;
+@media only screen and (min-width: 768px){
+  h1 {
+    font-size: 6.5rem;
 }
-}*/
+h2 {
+    font-size: 3rem;
+}
+.btn {
+    margin-top: 4%;
+}
+#linkref {
+ font-size: 1.6rem;
+}
+}
+@media only screen and (min-width: 1024px){
+h1 {
+    font-size: 8.5rem;
+}
+h2 {
+    font-size: 4rem;
+}
+.btn {
+    margin-top: 3%;
+}
+#linkref {
+  font-size: 2rem;
+}
+}
 @media only screen and (min-width: 1025px){
 body {
         max-width: 1536px !important;
 }
 
 /*Mainpage Styles*/
-
+#linkref {
+    font-size: 1.4rem;
+}
 h1 {
     font-size: 7.7rem;
 }
@@ -239,6 +270,5 @@ h2 {
 }
 .btn {
     width: 9rem;
-    height: 3rem;
 }
 }
