@@ -185,6 +185,7 @@ h2 {
     }
     .btn {
       margin-top: 6%;
+      width: 9rem;
 }
 }
 /*Media Queries 360*/
@@ -248,6 +249,7 @@ h2 {
 }
 .btn {
     margin-top: 3%;
+    width: 12rem !important;
 }
 #linkref {
   font-size: 2rem;
