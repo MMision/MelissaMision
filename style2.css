@@ -32,7 +32,6 @@ video {
   color: #FFFFFF;
   text-align: center;
   width: 9rem;
-  height: 3rem;
   transition: all 0.4s;
   cursor: pointer;
   margin: auto;
