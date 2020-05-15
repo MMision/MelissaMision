@@ -44,7 +44,7 @@ video {
   margin-top: 3%;
 }
 #linkref {
-    height: 50px;
+    height: 54px;
 }
 .btn:active {
   margin-top: 4% !important;
@@ -77,6 +77,10 @@ video {
   right: -3%;
   transition: 0.4s;
 }
+a {
+      display: block;
+
+  }
 .btn:hover span {
   padding-right: 25px;
 }
