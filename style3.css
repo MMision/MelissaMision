@@ -19,7 +19,14 @@ body {
 /*video {
     object-fit: cover;
 }*/
-
+.boxOne:hover, .boxTwo:hover, .boxThree:hover { 
+    transform: scale(.9); 
+  transition: all .8s;
+}
+.boxOne:active, .boxTwo:active, .boxThree:active {
+    transform: scale(.9); 
+  transition: all .8s;
+}
 p {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     color: #454545;
