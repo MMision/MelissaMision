@@ -61,17 +61,82 @@ p {
     text-align: center;
     line-height: 2.5;
 }
-a:hover {
-    color: black !important;
+.btn {
+  background-color: #d67f12;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  width: 9rem;
+  transition: all 0.4s;
+  cursor: pointer;
+  margin: auto;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0 !important;
+  z-index: 9;
+  text-decoration: none;
+  margin-top: 3%;
 }
-a:active {
-    color: #a8c3c6 !important;
-    border: none;
+#linkref {
+    height: 54px;
 }
-a:visited: {
-    color: #cccccc !important;
+.btn:active {
+  margin-top: 4% !important;
+  background-color: #ffffff00;
+  border: 2px solid white;
+  color: #FFFFFF;
+  text-align: center;
+  width: 9rem;
+  transition: all 0.3s;
+  cursor: pointer;
+  margin: auto;
+  right: 0;
+  bottom: 0;
+  padding: 0 !important;
+  left: 0;
+  z-index: 9;
+}
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.4s;
 }
 
+.btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -3%;
+  transition: 0.4s;
+}
+a {
+      display: block;
+
+  }
+.btn:hover span {
+  padding-right: 25px;
+}
+.btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+a:link {
+    color: white;
+    text-decoration: none;
+}
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+    color: white;
+}
+a:visited: {
+    color: white;
+}
 #nested {
     position: relative;
     margin: auto;
