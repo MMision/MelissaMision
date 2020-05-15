@@ -153,10 +153,13 @@ a:visited {
 }
 #nestedAgain {
     position: relative;
-    margin: 0 0 0 0;
+    margin: 0 0 0 0 !important;
     width: 100%;
     height: 100%;
+    justify-content: flex-end;
+    align-self: flex-end;
     display: inline-block;
+    text-align: center;
 }
 .boxOne {
     background-image: url('peace/camping.jpg');
@@ -189,10 +192,10 @@ a:visited {
     position: relative;
     line-height: 9;
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    color: #454545;
+    color: white;
     width: 100%;
     height: 325px;
-    background: #ededed;
+    background: #000000ab;
     display: inline-block;
 }
 }
@@ -247,8 +250,6 @@ a:visited {
     height: 48px;
 }
 }
-
-
 @media only screen and (min-width: 411px){
 .question1 {
     font-size: 1.8rem;
@@ -308,7 +309,7 @@ h1 {
 .boxOne, .boxTwo, .boxThree {
     height: 430px;
     width: 44%;
-    margin: 2% 2% 2% 2%;
+    margin: 0 1.5% 0 0%;
 }
 .boxOne, .boxThree{
     margin-left: 4%
@@ -328,17 +329,17 @@ body {
     margin-bottom: 3%;
 }
 .boxOne, .boxTwo, .boxThree {
-    width: 30%;
-    margin: 0px .75% 0 2%;
+    width: 31%;
+    margin: 0 1.5% 0 0%;
     height: 530px;
+}
+.boxThree {
+        margin: 0 0 0 0;
 }
 .boxOneText, .boxTwoText, .boxThreeText {
     height: 78px;
     font-size: 1.25rem;
     line-height: 4.255;
-}
-#nestedAgain {
-    margin: 0% 0 0 0;
 }
 }
 
