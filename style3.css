@@ -21,11 +21,11 @@ body {
 }*/
 .boxOne:hover, .boxTwo:hover, .boxThree:hover { 
     transform: scale(.9); 
-  transition: all .8s;
+  transition: all .9s;
 }
 .boxOne:active, .boxTwo:active, .boxThree:active {
   transform: scale(.9); 
-  transition: all .8s;
+  transition: all .9s;
 }
 .boxOne, .boxTwo, .boxThree {
     box-shadow: -7px 7px 8px #00000040;
