@@ -24,8 +24,11 @@ body {
   transition: all .8s;
 }
 .boxOne:active, .boxTwo:active, .boxThree:active {
-    transform: scale(.9); 
+  transform: scale(.9); 
   transition: all .8s;
+}
+.boxOne, .boxTwo, .boxThree {
+    box-shadow: -7px 7px 8px #00000040;
 }
 p {
     font-family: 'Yanone Kaffeesatz', sans-serif;
