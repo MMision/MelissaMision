@@ -23,7 +23,39 @@ html {
 /*video {
     object-fit: cover;
 }*/
+html {
+  font-family: "Helvetica Neue", sans-serif;
+  width: 100%;
+  color: #666666;
+  text-align: center;
+}
 
+.popup-overlay {
+    visibility: hidden;
+    position: absolute;
+    background: #ffffff;
+    width: 50%;
+    height: 50%;
+    left: 25%;
+    top: 25%;
+}
+
+.popup-overlay.active {
+  /*displays pop-up when "active" class is present*/
+  visibility: visible;
+  text-align: center;
+  z-index: 10;
+}
+
+.popup-content {
+  /*Hides pop-up content when there is no "active" class */
+  visibility: hidden;
+}
+
+.popup-content.active {
+  /*Shows pop-up content when "active" class is present */
+  visibility: visible;
+}
 .gradient {
     background: linear-gradient(to left, #020625d9, #ffffff00);    
     position: fixed;
@@ -163,18 +195,6 @@ a:visited: {
 }
 /*Mainpage Styles*/
 
-h2 {
-    color: white;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-weight: lighter;
-    letter-spacing: 20px;
-    font-size: .8rem;
-    line-height: 1;
-    color: white;
-    width: 100%;
-    text-shadow: 3px 2px 7px #2a2a2a;
-    margin: auto 0;
-}
 a:active {
     color: black !important;
     border: none;
@@ -182,6 +202,7 @@ a:active {
 a:visited: {
     color: #a8c3c6 !important;
 }
+
 
 /*Mainpage Styles*/
 
@@ -191,15 +212,6 @@ h1 {
     text-align: center;
     /* text-shadow: 1px 1px 6px #7f7f7f; */
     letter-spacing: 5px;
-}
-h2 {
-    font-size: 3rem;
-    text-align: center;
-/*    letter-spacing: 11px;
-*/    line-height: 1;
-    width: 100%;
-    text-shadow: 3px 2px 7px #2a2a2a;
-    margin: auto 0;
 }
 .btn {
     display: block;
@@ -235,6 +247,17 @@ a:visited {
     text-align: left;
     margin-top: 3%;
     margin-bottom: 3%;
+    position: relative;
+}
+h2 {
+    background: linear-gradient(to left, #006085, #010735);
+    font-family: 'Bebas Neue', curive;
+    font-size: 2.7rem;
+    color: white;
+    margin: 0 0 0 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
     position: relative;
 }
 #nestedAgain {
@@ -294,14 +317,13 @@ a:visited {
 }
 #nestedAgain {
     position: relative;
-    margin: 15% 0 0 7%;
     width: 91%;
     height: 100%;
     display: inline-block;
 }
-.hawk, .goat, .cicada {
+/*.hawk, .goat, .cicada {
     margin: 0% 0% 4% 4%;
-}
+}*/
 .boxTwo, .boxThree {
     margin: 4% 0 0 0;
 }
@@ -405,12 +427,11 @@ body {
     line-height: 2;
 }
 #nestedAgain {
-    margin: 6% 0 0 60%;
     width: 34%;
 }
-.hawk, .goat, .cicada {
+/*.hawk, .goat, .cicada {
     margin: 0% 0% 4% 4%;
-}
+}*/
 }
 
 
