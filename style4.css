@@ -225,13 +225,13 @@ a:visited {
   text-decoration: none;
 }
 .question1 {
-    background: linear-gradient(to left, #e0682f, #ffffff);
-    font-family: 'Bebas Neue', curive;
+/*    background: linear-gradient(to left, #e0682f, #ffffff);
+*/    font-family: 'Bebas Neue', curive;
     font-size: 2.7rem;
-    color: #d67f12;
+    color: white;
     margin: 0 0 0 0;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+/*    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;*/
     text-align: left;
     margin-top: 3%;
     margin-bottom: 3%;
