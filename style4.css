@@ -64,12 +64,12 @@ html {
   visibility: visible;
   text-align: center;
 }
-.popup-content, .popup-content2, .popup-content3, .popup-content4, .popup-content5, .popup-content6, .popup-content7, .popup-content8 {
+.popup-content, .popup-content2, .popup-content3, .popup-content4, .popup-content5, .popup-content6, .popup-content7, .popup-content8, .popup-content9 {
   /*Hides pop-up content when there is no "active" class */
   visibility: hidden;
 }
 
-.popup-content.active, .popup-content2.active, .popup-content3.active, .popup-content4.active, .popup-content5.active, .popup-content6.active, .popup-content7.active, .popup-content8.active {
+.popup-content.active, .popup-content2.active, .popup-content3.active, .popup-content4.active, .popup-content5.active, .popup-content6.active, .popup-content7.active, .popup-content8.active, .popup-content9.active {
   /*Shows pop-up content when "active" class is present */
   visibility: visible;
   margin: 0 0 0 auto;
@@ -213,7 +213,7 @@ a:visited: {
     left: 0;
     text-align: center;
 }
-.hawk, .goat, .cicada, .dolphin, .seagull, .orca, .close {
+.hawk, .goat, .cicada, .dolphin, .seagull, .orca, .horse, .wolf, .cricket, .close {
     display: block;
     width: 30%;
     text-align: center;
@@ -227,7 +227,7 @@ a:visited: {
     width: 9rem;
     height: 3rem;
 }
-.hawk, .goat, .cicada, .seagull, .dolphin, .orca {
+.hawk, .goat, .cicada, .seagull, .dolphin, .horse, .wolf, .cricket, .orca {
       margin: 0% 0% 4% 0%;
 }
 }
