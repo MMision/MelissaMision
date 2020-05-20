@@ -64,12 +64,12 @@ html {
   visibility: visible;
   text-align: center;
 }
-.popup-content {
+.popup-content, .popup-content2, .popup-content3 {
   /*Hides pop-up content when there is no "active" class */
   visibility: hidden;
 }
 
-.popup-content.active {
+.popup-content.active, .popup-content2.active, .popup-content3.active {
   /*Shows pop-up content when "active" class is present */
   visibility: visible;
   margin: 0 0 0 auto;
@@ -456,5 +456,4 @@ body {
     margin: 0% 0% 4% 4%;
 }*/
 }
-
 
