@@ -34,7 +34,7 @@ html {
     visibility: hidden;
     position: absolute;
     background: #ffffff;
-    width: 60%;
+    width: 85%;
     height: 50%;
     display: block;
     transform: translate(-50%,-50%);
@@ -145,7 +145,7 @@ p {
   padding: 0 !important;
   z-index: 8;
   text-decoration: none;
-  margin-top: 3%;
+  margin-top: 10%;
 }
 #linkref {
     height: 54px;
@@ -204,7 +204,7 @@ a:visited: {
     color: white;
 }
 #nested {
-    position: relative;
+    position: absolute;
     margin: auto;
     margin-top: 4.8%;
     right: 0;
@@ -293,21 +293,32 @@ h2 {
     position: relative;
 }
 #nestedAgain {
-  position: absolute;
-  text-align: center;
-  margin: auto;
-  display: inline-block;
-}
+    display: block;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    top: 50%;
+    width: 86%;
+    left: 50%;
+  }
 .boxOneText {
     margin: 0 0 0 0;
     text-align: left;
     position: relative;
-    line-height: 9;
+    line-height: 2;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     color: white;
     width: 100%;
     height: 325px;
     display: inline-block;
+}
+.boxOne, .boxTwo, .boxThree {
+    height: 308px;
+}
+.question1 {
+  width: 313px;
 }
 }
 
@@ -319,7 +330,6 @@ h2 {
     margin-top: 17%;
 }
 .boxOne {
-    height: 200px;
     width: 100%;
     margin: 0 0 0 0%;
 }
@@ -327,6 +337,8 @@ h2 {
     height: 50px;
     line-height: 2;
 }
+.boxOne, .boxTwo, .boxThree {
+    height: 308px;
 }
 /*Media Queries 360*/
 
@@ -334,21 +346,12 @@ h2 {
 .question1 {
     font-size: 1.8rem;
 }
-
-.boxOne, .boxTwo, .boxThree {
-    height: 200px;
-    width: 100%;
-}
 .boxOne {
     margin: 0 0 0 0%;
 }
 .boxOneText, .boxTwoText, .boxThreeText {
     height: 510px;
     line-height: 2;
-}
-#nestedAgain {
-    width: 91%;
-    height: 100%;
 }
 /*.hawk, .goat, .cicada {
     margin: 0% 0% 4% 4%;
@@ -363,9 +366,6 @@ h2 {
     .question1 {
     font-size: 1.8rem;
 }
-.boxOne, .boxTwo, .boxThree {
-    height: 230px;
-}
 .boxOneText, .boxTwoText, .boxThreeText {
     height: 48px;
 }
@@ -376,9 +376,6 @@ h2 {
 .question1 {
     font-size: 1.8rem;
 }
-.boxOne, .boxTwo, .boxThree {
-    height: 230px;
-}
 .boxOneText, .boxTwoText, .boxThreeText {
     height: 50px;
 }
@@ -387,9 +384,6 @@ h2 {
 @media only screen and (min-width: 414px){
 .question1 {
     font-size: 1.8rem;
-}
-.boxOne, .boxTwo, .boxThree {
-    height: 230px;
 }
 .boxOneText, .boxTwoText, .boxThreeText {
     height: 50px;
@@ -411,6 +405,14 @@ h2 {
 }
 
 @media only screen and (min-width: 1024px){
+    #nestedAgain {
+  position: relative !important;
+  text-align: center;
+  margin: auto;
+  display: inline-block;
+  top: 0;
+  left: 0;
+}
 h1 {
     font-size: 9rem;
 }
@@ -450,9 +452,6 @@ body {
     width: 100%;
     font-size: 1rem;
     line-height: 2;
-}
-#nestedAgain {
-    width: 34%;
 }
 /*.hawk, .goat, .cicada {
     margin: 0% 0% 4% 4%;
