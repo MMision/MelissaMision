@@ -38,12 +38,10 @@ document.getElementById('goat').onclick = function() {
 
 document.getElementById('cicada').onclick = function() {
 //removes the "active" class to .popup and .popup-content when the "Close" button is clicked 
-  $(".popup-overlay, .popup-content3, .popup-background").removeClass("active");
+  $(".popup-overlay, .popup-content3, .popup-background").addClass("active");
 }
 
 document.getElementById('close').onclick = function() {
 //removes the "active" class to .popup and .popup-content when the "Close" button is clicked 
-$(".close, .popup-overlay").on("click", function() {
   $(".popup-overlay, .popup-content, .popup-content2, .popup-content3, .popup-background").removeClass("active");
-});
 }

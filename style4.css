@@ -123,7 +123,6 @@ p {
   border: none;
   color: #FFFFFF;
   text-align: center;
-  width: 9rem;
   transition: all 0.4s;
   cursor: pointer;
   margin: auto;
@@ -144,7 +143,6 @@ p {
   border: 2px solid white;
   color: #FFFFFF;
   text-align: center;
-  width: 9rem;
   transition: all 0.3s;
   cursor: pointer;
   right: 0;
@@ -202,7 +200,7 @@ a:visited: {
     left: 0;
     text-align: center;
 }
-.hawk, .goat, .cicada {
+.hawk, .goat, .cicada, .close {
     display: block;
     width: 30%;
     text-align: center;
@@ -214,6 +212,8 @@ a:visited: {
     height: 3rem;
     position: relative;
     background: #d67f12;
+    width: 9rem;
+    height: 3rem;
 }
 }
 /*Mainpage Styles*/
@@ -240,8 +240,6 @@ h1 {
     display: block;
     background: #d67f12;
     color: white;
-    width: 9rem;
-    height: 3rem;
     position: relative;
     margin: auto;
     right: 0;
