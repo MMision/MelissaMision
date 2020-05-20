@@ -41,11 +41,12 @@ video {
   padding: 0 !important;
   z-index: 9;
   text-decoration: none;
+  position: relative;
   margin-top: 3%;
+  height: 3rem;
+  width: 9rem;
 }
-#linkref {
-    height: 54px;
-}
+
 .btn:active {
   margin-top: 4% !important;
   background-color: #ffffff00;
@@ -137,7 +138,6 @@ a:visited: {
     text-decoration: none;
     position: relative;
     text-align: center;
-    line-height: 2.5;
 }
 #nested {
     position: absolute;

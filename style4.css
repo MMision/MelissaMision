@@ -64,12 +64,12 @@ html {
   visibility: visible;
   text-align: center;
 }
-.popup-content, .popup-content2, .popup-content3 {
+.popup-content, .popup-content2, .popup-content3, .popup-content4, .popup-content5, .popup-content6, .popup-content7, .popup-content8 {
   /*Hides pop-up content when there is no "active" class */
   visibility: hidden;
 }
 
-.popup-content.active, .popup-content2.active, .popup-content3.active {
+.popup-content.active, .popup-content2.active, .popup-content3.active, .popup-content4.active, .popup-content5.active, .popup-content6.active, .popup-content7.active, .popup-content8.active {
   /*Shows pop-up content when "active" class is present */
   visibility: visible;
   margin: 0 0 0 auto;
@@ -124,6 +124,19 @@ p {
   color: #FFFFFF;
   text-align: center;
   transition: all 0.4s;
+  cursor: pointer;
+  margin: auto;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0 !important;
+  z-index: 8;
+  text-decoration: none;
+  margin-top: 3%;
+}
+.close {
+  border: none;
+  text-align: center;
   cursor: pointer;
   margin: auto;
   right: 0;
@@ -200,11 +213,10 @@ a:visited: {
     left: 0;
     text-align: center;
 }
-.hawk, .goat, .cicada, .close {
+.hawk, .goat, .cicada, .dolphin, .seagull, .orca, .close {
     display: block;
     width: 30%;
     text-align: center;
-    margin: 0% 0% 4% 0%;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     color: white;
     font-size: 1.3rem;
@@ -214,6 +226,9 @@ a:visited: {
     background: #d67f12;
     width: 9rem;
     height: 3rem;
+}
+.hawk, .goat, .cicada, .seagull, .dolphin, .orca {
+      margin: 0% 0% 4% 0%;
 }
 }
 /*Mainpage Styles*/
@@ -237,16 +252,13 @@ h1 {
     letter-spacing: 5px;
 }
 .btn {
-    display: block;
+    display: inline-block;
     background: #d67f12;
     color: white;
     position: relative;
-    margin: auto;
-    right: 0;
-    bottom: 0;
-    left: 0;
     margin-top: 3%;
     text-align: center;
+    margin-right: 4%;
 }
 a:link {
     color: #2c6576;
@@ -281,11 +293,10 @@ h2 {
     position: relative;
 }
 #nestedAgain {
-    position: relative;
-    margin: 0 0 0 0;
-    width: 100%;
-    height: 100%;
-    display: inline-block;
+  position: absolute;
+  text-align: center;
+  margin: auto;
+  display: inline-block;
 }
 .boxOneText {
     margin: 0 0 0 0;
@@ -336,10 +347,8 @@ h2 {
     line-height: 2;
 }
 #nestedAgain {
-    position: relative;
     width: 91%;
     height: 100%;
-    display: inline-block;
 }
 /*.hawk, .goat, .cicada {
     margin: 0% 0% 4% 4%;
@@ -413,9 +422,6 @@ h1 {
     width: 44%;
     margin: 2% 2% 2% 2%;
 }
-.boxOne {
-    margin-left: 4%
-}
 .boxOneText {
     height: 78px;
     font-size: 1rem;
@@ -429,9 +435,8 @@ body {
 }
 .question1 {
     font-size: 2.7rem;
-    padding-top: 9%;
+    padding-top: 14%;
     width: 100%;
-    margin-left: 3%;
     margin-bottom: 1%;
     position: relative;
 }

@@ -41,6 +41,11 @@
   <div class="boxOneText">Nothing is quite like a campfire while you're camping out in the mountains. You're surrounded by friends and roasting food over the fire. The sound of cicadas fill the Summer air.<blockquote>"In nature, nothing is perfect and everything is perfect. Trees can be contorted, bent in weird ways, and they're still beautiful."<br> - Alice Walker</blockquote>Have you ever heard one of these animals while camping?
  </div>
 </div>
+<!--Content shown when popup is not displayed-->
+<button class="hawk btn open" id="hawk"><span>Hawk</span></button>
+<button class="goat btn open" id="goat"><span>Goat</span></button>
+<button class="cicada btn open" id="cicada"><span>Cicada</span></button>
+</div>
 </div>
 <!--Creates the popup body-->
 <div class="popup-background">
@@ -50,27 +55,35 @@
     <h2>Hawk</h2>
     <p>Some hawk content for you!</p>
     <!--popup's close button-->
-    <button class="btn close" id="close">Close</button> </div>
+    <button class="close" id="close" onclick="pauseAudio()">Close</button> </div>
 
     <div class="popup-content2">
     <h2>Goat</h2>
     <p>Some goat content for you!</p>
     <!--popup's close button-->
-    <button class="btn close" id="close2">Close</button> </div>
+    <button class="close" id="close2" onclick="pauseAudio()">Close</button> </div>
 
     <div class="popup-content3">
     <h2>Cicada</h2>
     <p>Some cicada content for you!</p>
     <!--popup's close button-->
-    <button class="btn close" id="close3">Close</button> </div>
+    <button class="close" id="close3" onclick="pauseAudio()">Close</button> </div>
 
 </div>
 </div>
-<!--Content shown when popup is not displayed-->
-<button class="hawk btn open" id="hawk"><span>Hawk</span></button>
-<button class="goat btn open" id="goat"><span>Goat</span></button>
-<button class="cicada btn open" id="cicada"><span>Cicada</span></button>
-</div>
+<audio id="hawkSound">
+  <source src="hawk.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<audio id="goatSound">
+  <source src="goat.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<audio id="cicadaSound">
+  <source src="cicada.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
 <script language="JavaScript" type="text/javascript" src="index.js" charset="utf-8"></script>
   </body>
 </html>

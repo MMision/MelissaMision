@@ -17,6 +17,7 @@
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style4.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
   <body>          
   	<style>
@@ -34,24 +35,55 @@
 <div class="gradient">
 <div id="nestedAgain">
 
-  <div class="question1">The beach at sunset...</div>
+  <div class="question1">The forest in spring...</div>
 
   <div class="boxOne">
   <div class="boxOneText">Nothing is quite like a campfire while you're camping out in the mountains. You're surrounded by friends and roasting food over the fire. The sound of cicadas fill the Summer air.<blockquote>"In nature, nothing is perfect and everything is perfect. Trees can be contorted, bent in weird ways, and they're still beautiful."<br> - Alice Walker</blockquote>Have you ever heard one of these animals while camping?
  </div>
 </div>
-<button class="hawk btn">
-         <a href="easeYourMind.html" id="linkref"><span>Hawk</span></a>
-</button>
-<button class="goat btn">
-           <a href="easeYourMind.html" id="linkref"><span>Goat</span></a>
-</button>
-<button class="cicada btn">
-           <a href="easeYourMind.html" id="linkref"><span>Cicada</span></a>
-</button>
+<!--Content shown when popup is not displayed-->
+<button class="seagull btn open" id="seagull"><span>Seagull</span></button>
+<button class="dolphin btn open" id="dolphin"><span>Dolphin</span></button>
+<button class="orca btn open" id="orca"><span>Orca</span></button>
 </div>
 </div>
-<script src="index.js" charset="utf-8"></script>
+<!--Creates the popup body-->
+<div class="popup-background">
+<div class="popup-overlay">
+  <!--Creates the popup content-->
+  <div class="popup-content4">
+    <h2>Seagull</h2>
+    <p>Some hawk content for you!</p>
+    <!--popup's close button-->
+    <button class="close" id="close4" onclick="pauseAudio()">Close</button> </div>
+
+    <div class="popup-content5">
+    <h2>Dolphin</h2>
+    <p>Some dolphin content for you!</p>
+    <!--popup's close button-->
+    <button class="close" id="close5" onclick="pauseAudio()">Close</button> </div>
+
+    <div class="popup-content6">
+    <h2>Orca</h2>
+    <p>Some orca content for you!</p>
+    <!--popup's close button-->
+    <button class="close" id="close6" onclick="pauseAudio()">Close</button> </div>
+
+</div>
+</div>
+<audio id="seagullSound">
+  <source src="seagull.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<audio id="dolphinSound">
+  <source src="dolphin.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<audio id="orcaSound">
+  <source src="orca.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<script language="JavaScript" type="text/javascript" src="index.js" charset="utf-8"></script>
   </body>
 </html>
-
