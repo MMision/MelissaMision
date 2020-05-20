@@ -45,3 +45,11 @@ document.getElementById('close').onclick = function() {
 //removes the "active" class to .popup and .popup-content when the "Close" button is clicked 
   $(".popup-overlay, .popup-content, .popup-content2, .popup-content3, .popup-background").removeClass("active");
 }
+document.getElementById('close2').onclick = function() {
+//removes the "active" class to .popup and .popup-content when the "Close" button is clicked 
+  $(".popup-overlay, .popup-content, .popup-content2, .popup-content3, .popup-background").removeClass("active");
+}
+document.getElementById('close3').onclick = function() {
+//removes the "active" class to .popup and .popup-content when the "Close" button is clicked 
+  $(".popup-overlay, .popup-content, .popup-content2, .popup-content3, .popup-background").removeClass("active");
+}
