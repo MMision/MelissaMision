@@ -239,6 +239,9 @@ a:visited {
 .boxTwo, .boxThree {
     margin: 4% 0 0 0;
 }
+.boxThree {
+    margin-bottom: 4%;
+}
 }
 /*Media Queries 375*/
 
@@ -248,6 +251,9 @@ a:visited {
 }
 .boxOne, .boxTwo, .boxThree {
     height: 230px;
+}
+.boxThree {
+    margin-bottom: 4%;
 }
 .boxOneText, .boxTwoText, .boxThreeText {
     height: 61px;
@@ -292,7 +298,7 @@ a:visited {
     width: 44%;
 }
 .boxOne {
-    margin: 0% 3% 0px 4%;
+    margin: 0% 3% 0px 0%;
 }
 .boxThree {
     margin: 4% 3% 4% 4%;

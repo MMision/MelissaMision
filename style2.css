@@ -46,7 +46,6 @@ video {
   height: 3rem;
   width: 9rem;
 }
-
 .btn:active {
   margin-top: 4% !important;
   background-color: #ffffff00;
@@ -134,6 +133,7 @@ a:visited: {
 #linkref {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     color: white;
+    width: 9rem;
     font-size: 1.3rem;
     text-decoration: none;
     position: relative;
@@ -191,6 +191,9 @@ h2 {
       margin-top: 7%;
       width: 9rem;
 }
+#linkRef {
+    width: 9rem;
+}
 }
 /*Media Queries 360*/
 
@@ -203,7 +206,6 @@ h1 {
 }
     h2 {
     font-size: 1.5rem;
-    letter-spacing: 12px;
 }
 .btn {
       margin-top: 6%;
@@ -253,10 +255,11 @@ h2 {
 }
 .btn {
     margin-top: 3%;
-    width: 12rem !important;
+    width: 10rem !important;
 }
 #linkref {
   font-size: 2rem;
+  width: 10rem;
 }
 }
 @media only screen and (min-width: 1025px){
@@ -273,8 +276,5 @@ h1 {
 }
 h2 {
     font-size: 3rem;
-}
-.btn {
-    width: 9rem;
 }
 }
