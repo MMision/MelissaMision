@@ -338,7 +338,7 @@ h2 {
     margin: 0% 0% 4% 4%;
 }*/
 .popup-overlay {
-    height: 45%;
+    height: 555%;
 }
 .boxTwo, .boxThree {
     margin: 4% 0 0 0;
@@ -362,7 +362,7 @@ h2 {
     margin: 4% 0 0 0;
 }
 .popup-overlay {
-    height: 35%;
+    height: 45%;
 }
 }
 /*Media Queries 375*/
@@ -372,7 +372,7 @@ h2 {
     font-size: 1.9rem;
 }
 .popup-overlay {
-    height: 38%;
+    height: 45%;
 }
 }
 
@@ -382,7 +382,7 @@ h2 {
     font-size: 2rem;
 }
 .popup-overlay {
-    height: 35%;
+    height: 43%;
 }
 }
 
