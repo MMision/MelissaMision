@@ -260,6 +260,7 @@ h1 {
     margin-top: 3%;
     text-align: center;
     margin-right: 4%;
+    margin-left: 4%;
 }
 a:link {
     color: #2c6576;
@@ -291,11 +292,13 @@ h2 {
     position: relative;
 }
 #nestedAgain {
-    display: block;
-    position: absolute;
-    left: 7%;
-    top: 0%;
-    width: 86%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: -100;
+    min-width: 84%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 .boxOneText {
     margin: 0 0 0 0;
@@ -315,22 +318,14 @@ h2 {
 /*Media Queries 320*/
 
 @media only screen and (min-width: 320px){
-.question1 {
-    font-size: 1.8rem;
-    margin-bottom: 2%;
+.boxOneText, .boxTwoText, .boxThreeText {
+    line-height: 1.8;
 }
-.boxOne {
-    width: 100%;
-    margin: 0 0 0 0%;
-}
-.boxOneText {
-    line-height: 2;
-}
-#nestedAgain {
-  top: 6%;
-}
-.hawk, .seagull, .horse {
-  margin-top: 8%;
+/*.hawk, .goat, .cicada {
+    margin: 0% 0% 4% 4%;
+}*/
+.boxTwo, .boxThree {
+    margin: 4% 0 0 0;
 }
 }
 
@@ -370,22 +365,19 @@ h2 {
 .question1 {
     font-size: 2.4rem;
 }
+.btn {
+  margin-left: 0%;
+}
 .boxOneText {
     font-size: 1.5rem;
     line-height: 2;
 }
+.cicada, .cricket, .orca {
+  margin-right: 0% !important;
+}
 }
 
 @media only screen and (min-width: 1024px){
-#nestedAgain {
-    position: relative !important;
-    text-align: center;
-    margin: auto;
-    display: inline-block;
-    margin-top: 50%;
-    left: 0;
-    right: 0;
-}
 h1 {
     font-size: 9rem;
 }
@@ -398,6 +390,9 @@ h1 {
 .boxOneText {
     font-size: 1.1rem;
     line-height: 2;
+}
+.cicada, .cricket, .orca {
+  margin-right: 0% !important;
 }
 }
 
