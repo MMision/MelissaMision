@@ -279,6 +279,7 @@ a:visited {
     -webkit-text-fill-color: transparent;*/
     text-align: left;
     position: relative;
+    font-size: 1.8rem;
 }
 h2 {
     background: linear-gradient(to left, #006085, #010735);
@@ -312,6 +313,10 @@ h2 {
 }
 .boxOne, .boxTwo, .boxThree {
     height: 100%;
+}
+.cicada, .cricket, .orca {
+    margin-right: 4% !important;
+    margin-bottom: 0% !important;
 }
 }
 
@@ -374,6 +379,7 @@ h2 {
 }
 .cicada, .cricket, .orca {
   margin-right: 0% !important;
+  margin-bottom: 0% !important;
 }
 }
 
@@ -393,6 +399,7 @@ h1 {
 }
 .cicada, .cricket, .orca {
   margin-right: 0% !important;
+  margin-bottom: 0% !important;
 }
 }
 
