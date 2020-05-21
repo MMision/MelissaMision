@@ -29,7 +29,9 @@ html {
   color: #666666;
   text-align: center;
 }
-
+.hawk, .seagull, .horse {
+  margin-top: 8%;
+}
 .popup-overlay {
     visibility: hidden;
     position: absolute;
@@ -230,7 +232,6 @@ a:visited: {
 .hawk, .goat, .cicada, .seagull, .dolphin, .horse, .wolf, .cricket, .orca {
       margin: 0% 0% 4% 0%;
 }
-}
 /*Mainpage Styles*/
 
 a:active {
@@ -270,15 +271,12 @@ a:visited {
 }
 .question1 {
 /*    background: linear-gradient(to left, #e0682f, #ffffff);
-*/    font-family: 'Bebas Neue', curive;
-    font-size: 2.7rem;
+*/  font-family: 'Bebas Neue', curive;
     color: white;
     margin: 0 0 0 0;
-/*    -webkit-background-clip: text;
+/*  -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;*/
     text-align: left;
-    margin-top: 3%;
-    margin-bottom: 3%;
     position: relative;
 }
 h2 {
@@ -295,14 +293,10 @@ h2 {
 #nestedAgain {
     display: block;
     position: absolute;
-    left: 0;
-    text-align: center;
-    -webkit-transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%);
-    top: 50%;
+    left: 7%;
+    top: 0%;
     width: 86%;
-    left: 50%;
-  }
+}
 .boxOneText {
     margin: 0 0 0 0;
     text-align: left;
@@ -311,14 +305,10 @@ h2 {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     color: white;
     width: 100%;
-    height: 325px;
     display: inline-block;
 }
 .boxOne, .boxTwo, .boxThree {
-    height: 308px;
-}
-.question1 {
-  width: 313px;
+    height: 100%;
 }
 }
 
@@ -327,30 +317,28 @@ h2 {
 @media only screen and (min-width: 320px){
 .question1 {
     font-size: 1.8rem;
-    margin-top: 17%;
+    margin-bottom: 2%;
 }
 .boxOne {
     width: 100%;
     margin: 0 0 0 0%;
 }
 .boxOneText {
-    height: 50px;
     line-height: 2;
 }
-.boxOne, .boxTwo, .boxThree {
-    height: 308px;
+#nestedAgain {
+  top: 6%;
 }
+.hawk, .seagull, .horse {
+  margin-top: 8%;
+}
+}
+
 /*Media Queries 360*/
 
 @media only screen and (min-width: 360px){
-.question1 {
-    font-size: 1.8rem;
-}
-.boxOne {
-    margin: 0 0 0 0%;
-}
+
 .boxOneText, .boxTwoText, .boxThreeText {
-    height: 510px;
     line-height: 2;
 }
 /*.hawk, .goat, .cicada {
@@ -363,55 +351,40 @@ h2 {
 /*Media Queries 375*/
 
 @media only screen and (min-width: 375px){
-    .question1 {
-    font-size: 1.8rem;
-}
-.boxOneText, .boxTwoText, .boxThreeText {
-    height: 48px;
+.question1 {
+    font-size: 1.9rem;
 }
 }
 
 
 @media only screen and (min-width: 411px){
 .question1 {
-    font-size: 1.8rem;
-}
-.boxOneText, .boxTwoText, .boxThreeText {
-    height: 50px;
+    font-size: 2rem;
 }
 }
 
 @media only screen and (min-width: 414px){
-.question1 {
-    font-size: 1.8rem;
-}
-.boxOneText, .boxTwoText, .boxThreeText {
-    height: 50px;
-}
 }
 
 @media only screen and (min-width: 768px){
 .question1 {
-    font-size: 1.8rem;
-}
-.boxOne {
-    height: 430px;
+    font-size: 2.4rem;
 }
 .boxOneText {
-    height: 79px;
     font-size: 1.5rem;
-    line-height: 3.5;
+    line-height: 2;
 }
 }
 
 @media only screen and (min-width: 1024px){
-    #nestedAgain {
-  position: relative !important;
-  text-align: center;
-  margin: auto;
-  display: inline-block;
-  top: 0;
-  left: 0;
+#nestedAgain {
+    position: relative !important;
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+    margin-top: 50%;
+    left: 0;
+    right: 0;
 }
 h1 {
     font-size: 9rem;
@@ -419,14 +392,11 @@ h1 {
 .question1 {
     font-size: 2.8rem;
 }
-.boxOne {
-    height: 430px;
-    width: 44%;
-    margin: 2% 2% 2% 2%;
+.hawk, .seagull, .horse {
+    margin-top: 0%;
 }
 .boxOneText {
-    height: 78px;
-    font-size: 1rem;
+    font-size: 1.1rem;
     line-height: 2;
 }
 }
@@ -436,7 +406,6 @@ body {
         max-width: 1536px !important;
 }
 .question1 {
-    font-size: 2.7rem;
     padding-top: 14%;
     width: 100%;
     margin-bottom: 1%;
@@ -444,13 +413,14 @@ body {
 }
 .boxOne {
     width: 100%;
-    height: 36%;
+}
+#nestedAgain {
+  margin-top: 0;
 }
 .boxOneText {
     padding-top: 1%;
-    height: 78px;
     width: 100%;
-    font-size: 1rem;
+    font-size: 1.4rem;
     line-height: 2;
 }
 /*.hawk, .goat, .cicada {
