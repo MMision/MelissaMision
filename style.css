@@ -754,9 +754,6 @@ h2 {
 }
 }
 @media only screen and (min-width: 1025px){
-body {
-        max-width: 1536px !important;
-}
 #nested4 {
     top: 122%;
 }
