@@ -15,23 +15,26 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css" />
     <script src="scripts.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
+<!-- Navigation pages -->
+<div class="navbar" id="navbarId"><div id="logo2">
+        <a href="index.html" class="active"><img border="0" alt="Melissa Mision Logo" src="logo2.png"></a></div>
+        <a href="index.html" class="navPages">Home</a>
+        <a href="Work.html" class="navPages">Work</a>
+        <a href="About.html" class="navPages">About</a>
+  <a href="javascript:void(0);" class="icon" id="openNav" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+  <div class="navDark" id="navDarken"></div>
     <style>
     body {
     margin: 0px;
     border: 0px;
   }
   </style>
-      <div id="navbar">
-      <div id="logo2">
-      </div>
-      <div id="space">
-         <a href="index.html" id="linkref">Home</a>
-         <a href="Work.html" id="linkref">Work</a>
-         <a href="About.html" id="linkref">About</a>
-      </div>
-    </div>
 </center>
 
 <!-- Slideshow container -->
@@ -40,13 +43,9 @@
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
     <div class="numbertext"></div>
-    <img src="FrontEnd/interactiveQuiz/interactiveQuiz.jpg" style="
-    width: 134%;
+    <img src="FrontEnd/interactiveQuiz/interactiveQuiz.jpg" style="width: 100%;
     height: 80%;
-    transform: scale(.84);
-    display: inline-block;
-    margin-left: -10%;
-    margin-top: 2%;">
+    display: inline-block;">
 
     <div class="text">Ease Your Mind</div>
     <div class="textSummary">I developed a few web pages using some of the methods I've learned and am continuing to learn about. This project really helped me understand JavaScript functions and showed me the importance of grouping classes together for efficient and clean code. Planning to revisit this over time to recode as I build other projects and learn best practices. <br>Here is where you can find my project (there is audio on the last page): <br><br> <a href="http://www.melissamision.com/peace" id="linkref">http://www.melissamision.com/peace</a></div>
@@ -99,6 +98,6 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 </script>
-
+<script type="text/javascript" language="JavaScript" src="test.js" charset="utf-8"></script>
   </body>
 </html>
