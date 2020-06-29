@@ -220,6 +220,7 @@ a:hover {
 a:active {
     color: #066B94 !important;
     border: none;
+    font-weight: bold;
 }
 a:visited: {
     color: #066B94 !important;
@@ -579,13 +580,15 @@ a:link {
 }
 /* Slideshow container */
 .slideshow-container {
-    max-width: 100%;
+    width: 100% !important;
     position: relative;
     margin: auto;
-    margin-top: 50%;
-    display: block;
+    margin-top: 28%;
 }
-
+.slideHeight {
+    width: 100%;
+    height: auto;
+}
 /* Hide the images by default */
 .mySlides {
   display: none;
@@ -595,13 +598,7 @@ a:link {
 .prev, .next {
     cursor: pointer;
     position: relative;
-    top: 47%;
-    width: 100%;
-    margin-top: 44%;
-    padding-right: 23%;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    padding-left: 22%;
+    padding-right: 0;
     color: #066B94;
     font-weight: bold;
     font-size: 26px;
@@ -609,7 +606,11 @@ a:link {
     border-radius: 0;
     user-select: none;
     background-color: none;
-    text-align: center;
+    text-align: left;
+    display: inline-block;
+    padding-right: 20%;
+    padding-left: 20%;
+    padding-top: 10%;
 }
 .prev {
 }
@@ -623,32 +624,30 @@ a:link {
 .prev:hover, .next:hover {
     background-color: #066B94;
     border-radius: 1000px;
+    color: white;
 }
-
 /* Caption text */
 .text {
     font-family: NunitoSans-Light, sans-serif;
     font-size: 1.5rem;
     color: #066B94;
-    position: relative;
+    position: absolute;
     width: 100%;
     text-align: center;
     padding-top: 5%;
-    display: block;
     font-weight: bold;
 }
 .textSummary {
     color: #0000008a;
     font-family: NunitoSans-Light, sans-serif;
     font-size: 14px;
-    position: relative;
-    bottom: 8px;
-    width: 100%;
+    position: absolute;
     text-align: center;
     line-height: 1.6;
     margin: 4% 0 0 0%;
     padding-left: 10%;
     padding-right: 10%;
+    padding-bottom: 15%;
 }
 
 .vertStuff {
@@ -838,8 +837,7 @@ h2 {
     clip-path: polygon(0% 0%, 52% 0%, 0 64%, 0 100%);
 }
 .slideshow-container {
-    max-width: 42%;
-    margin-top: 10%;
+    margin-top: 8%;
     display: inline-block;
 }
 .text {
@@ -913,6 +911,40 @@ h2 {
 }
 .graphicDesignWork3, .graphicDesignWork5 {
     height: 520px;
+}
+.text {
+    width: 35%;
+    padding-left: 5%;
+    text-align: left;
+}
+.textSummary {
+    color: #0000008a;
+    font-family: NunitoSans-Light, sans-serif;
+    font-size: 14px;
+    position: relative;
+    text-align: left;
+    line-height: 1.6;
+    margin: 0 0 0 0;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 5%;
+    padding-bottom: 0%;
+    display: inline-block;
+    left: 0;
+}
+.slideHeight {
+    width: 60%;
+    margin-bottom: 2%;
+}
+.prev, .next {
+    width: auto;
+    font-size: 26px;
+    left: 0;
+    margin-top: 10%;
+    margin-right: 30%;
+    padding-right: 0%;
+    padding-left: 0%;
+    padding-top: 0%;
 }
 }
 @media only screen and (min-width: 1025px){
