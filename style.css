@@ -26,7 +26,7 @@ body {
 .angleOverlay {
     display: inline-block;
     background-color: #066b94bd;
-    clip-path: polygon(0% 0%, 103% 0%, 0 37%, 0 100%);
+    clip-path: polygon(0% 0%, 100% 0%, 0 37%, 0 100%);
     width: 77%;
     height: 190px;
     top: 0;
