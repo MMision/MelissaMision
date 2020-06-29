@@ -395,7 +395,7 @@ a:link {
     bottom: 0;
     z-index: 0;
     object-fit: cover;
-    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 93%);
 }
 /*Image Styles*/
 .frontEnd {
@@ -940,10 +940,11 @@ h2 {
 }
 }
 @media only screen and (min-width: 1025px){
-    .profilePic {
+.profilePic {
     width: 73%;
     height: auto;
-    clip-path: polygon(0% 0%, 100% 0%, 80% 100%, 0% 100%);
+    clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);
+    left: 30%;
 }
 .text {
     width: 35%;
@@ -973,6 +974,7 @@ h2 {
     display: inline-block;
     width: 21%;
     top: 33%;
+    left: 7%;
 }
     #nested4 {
     margin-bottom: 3%;
