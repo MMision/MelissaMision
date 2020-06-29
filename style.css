@@ -142,10 +142,10 @@ video {
     min-height: 100%;
 }
 .nested2 {
-    position: relative;
-    margin-top: 10%;
-    padding-left: 10%;
-    padding-right: 10%;
+    position: absolute;
+    top: 0;
+    padding-left: 0%;
+    padding-right: 0%;
 }
 #overlay {
     position: fixed;
@@ -345,6 +345,7 @@ h4 {
     margin-left: 0;
     text-align: left;
     height: 14px;
+    margin-top: 8%;
 }
 h5 {
     font-family: NunitoSans-Light, sans-serif;
@@ -373,8 +374,8 @@ h5 {
 .summaryOnly {
     position: relative;
     background: none;
-    padding-left: 0;
-    padding-right: 0px;
+    padding-left: 10%;
+    padding-right: 10%;
     z-index: 5;
     width: 100%;
     border-bottom: solid 2px #066B94;
@@ -385,7 +386,6 @@ a:link {
     text-decoration: none;
 }
 .profilePic {
-    /* background-size: cover; */
     width: 100%;
     height: 350px;
     position: relative;
@@ -394,6 +394,8 @@ a:link {
     right: 0;
     bottom: 0;
     z-index: 0;
+    object-fit: cover;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
 }
 /*Image Styles*/
 .frontEnd {
@@ -813,6 +815,9 @@ h2 {
     left: 6%;
     bottom: 0 !important;
 }
+.profilePic {
+     padding-top: 0;   
+}
 }
 @media only screen and (min-width: 768px){
 h1 {
@@ -883,6 +888,12 @@ h2 {
 #logo2 {
     transform: scale(0.7);
 }
+.nested2 {
+    top: 0%;
+     margin-top: 0%; 
+     padding-left: 0%; 
+     padding-right: 0%; 
+}
 .angleOverlay {
     display: inline-block;
     clip-path: polygon(0% 0%, 100% 0%, 0% 100%, 0% 100%);
@@ -912,6 +923,28 @@ h2 {
 .graphicDesignWork3, .graphicDesignWork5 {
     height: 520px;
 }
+
+.slideHeight {
+    width: 60%;
+    margin-bottom: 2%;
+}
+.prev, .next {
+    width: auto;
+    font-size: 26px;
+    left: 0;
+    margin-top: 10%;
+    margin-right: 30%;
+    padding-right: 0%;
+    padding-left: 0%;
+    padding-top: 0%;
+}
+}
+@media only screen and (min-width: 1025px){
+    .profilePic {
+    width: 73%;
+    height: auto;
+    clip-path: polygon(0% 0%, 100% 0%, 80% 100%, 0% 100%);
+}
 .text {
     width: 35%;
     padding-left: 5%;
@@ -932,22 +965,15 @@ h2 {
     display: inline-block;
     left: 0;
 }
-.slideHeight {
-    width: 60%;
-    margin-bottom: 2%;
-}
-.prev, .next {
-    width: auto;
-    font-size: 26px;
-    left: 0;
-    margin-top: 10%;
-    margin-right: 30%;
-    padding-right: 0%;
+.summaryOnly {
+    position: absolute;
+    background: none;
     padding-left: 0%;
-    padding-top: 0%;
+    padding-right: 0%;
+    display: inline-block;
+    width: 21%;
+    top: 33%;
 }
-}
-@media only screen and (min-width: 1025px){
     #nested4 {
     margin-bottom: 3%;
 }
