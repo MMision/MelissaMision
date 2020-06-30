@@ -346,7 +346,7 @@ body {
 .boxOne, .boxTwo, .boxThree {
     width: 31%;
     margin: 0 1.5% 0 0%;
-    height: 530px;
+    height: 76vh;
 }
 .boxThree {
         margin: 0 0 0 0;
