@@ -942,7 +942,7 @@ h2 {
 @media only screen and (min-width: 1025px){
 .profilePic {
     width: 70%;
-    height: auto;
+    height: 100vh;
     clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);
     left: 30%;
 }
