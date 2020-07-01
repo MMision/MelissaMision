@@ -451,16 +451,16 @@ a:link {
     background-repeat: no-repeat;
     position: relative;
     margin: 0 auto;
-    height: 280px;
+    height: 43vh;
     width: 100%;
     display: inline-block;
 }
 .frontEndWork2, .graphicDesignWork2, .fineArtWork2, .graphicDesignWork4, .graphicDesignWork6 {
-   background-size: cover;
+    background-size: cover;
     background-repeat: no-repeat;
     position: relative;
     margin: 0 auto;
-    height: 280px;
+    height: 43vh;
     width: 100%;
     display: inline-block;
 }
@@ -480,7 +480,7 @@ a:link {
     background-repeat: no-repeat;
     position: relative;
     margin: 0 auto;
-    height: 280px;
+    height: 43vh;
     width: 100%;
     display: inline-block;
     margin-top: 0;
@@ -491,7 +491,7 @@ a:link {
     background-repeat: no-repeat;
     position: relative;
     margin: 0 auto;
-    height: 280px;
+    height: 43vh;
     width: 100%;
     margin-right: 0;
     display: inline-block;
@@ -502,7 +502,7 @@ a:link {
 }
 /*Work Styles*/
 .frontEnd, .graphicDesign, .fineArt {
-    height: 150px;
+    height: 26vh;
     width: 100%;
     display: block;
     position: relative;
@@ -712,16 +712,11 @@ a:link {
 
 }
 @media only screen and (min-width: 360px){
-.frontEnd, .graphicDesign, .fineArt {
-    height: 167px;
-}
+
 }
 /*Media Queries 375*/
 
 @media only screen and (min-width: 375px){
-.frontEnd, .graphicDesign, .fineArt {
-    height: 213px;
-}
 }
 @media only screen and (min-width: 411px){
 h1 {
@@ -729,9 +724,6 @@ h1 {
 }
 h2 {
     font-size: 1.5rem;
-}
-.frontEnd, .graphicDesign, .fineArt {
-    height: 216px;
 }
 }
 @media screen and (max-width: 600px) {
@@ -980,19 +972,19 @@ h2 {
     margin-bottom: 3%;
 }
 .frontEndWork, .graphicDesignWork, .fineArtWork {
-    height: 400px;
+    height: 55vh;
 }
 .frontEndWork2, .graphicDesignWork2, .fineArtWork2, .graphicDesignWork4, .graphicDesignWork6 {
-    height: 400px;
+    height: 55vh;
 }
 .frontEndWork3, .fineArtWork3 {
-    height: 400px;
+    height: 55vh;
 }
 .frontEndWork4, .fineArtWork4 {
-    height: 400px;
+    height: 55vh;
 }
 .graphicDesignWork3, .graphicDesignWork5 {
-    height: 400px;
+    height: 55vh;
 }
 .firstSet, .secondSet, .thirdSet {
     padding-left: 28%;
