@@ -23,6 +23,27 @@ body {
   display: block;
   text-align: right;
 }
+.btn {
+    background-color: transparent;
+    border: 2px solid white;
+    color: #FFFFFF;
+    text-align: center;
+    width: 9rem;
+    transition: all 0.4s;
+    cursor: pointer;
+    margin: auto;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0 !important;
+    z-index: 9;
+    text-decoration: none;
+    position: relative;
+    margin-top: 3%;
+    height: 3rem;
+    width: 9rem;
+    clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0% 90%);
+}
 .angleOverlay {
     display: inline-block;
     background-color: #066b94bd;
@@ -223,8 +244,12 @@ a:active {
     font-weight: bold;
 }
 a:visited: {
-    color: #066B94 !important;
+        color: #797979 !important;
       text-decoration: none;
+}
+.spanText {
+         color: white !important;
+      text-decoration: none;   
 }
 /*Work Gallery Thumbs*/
 .msa, .stillThumb, .cityScapes {
