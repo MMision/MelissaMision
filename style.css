@@ -552,7 +552,7 @@ a:link {
     z-index: 9;
     -webkit-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
-    top: 13%;
+    top: 15%;
     width: 100%;
     padding-left: 10%;
     left: 50%;
@@ -1038,7 +1038,7 @@ h5 {
 }
 .firstSet, .secondSet, .thirdSet {
     padding-left: 28%;
-    top: 23%;
+    top: 29%;
 }
 .angleOverlay {
     width: 26%;
