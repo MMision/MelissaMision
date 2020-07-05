@@ -224,11 +224,12 @@ ul {
     right: 0;
 }
 #linkref {
-    color: #777777;
+    color: #066B94;
     text-decoration: none;
     font-family: NunitoSans-Light, sans-serif;
     position: relative;
     display: inline-block;
+    font-weight: 600;
 }
 #linkref2 {
     color: #a5a5a5 !important;
