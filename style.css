@@ -447,10 +447,10 @@ a:link {
     background-position: calc(131 / 200 * 100%) calc(66 / 200 * 100%);
 }
 .frontEndWork {
-    background-image: url('FrontEnd/Mockup/interactiveQuizThumb.jpg');
+    background-image: url('FrontEnd/interactiveQuiz/interactiveQuiz.jpg');
 }
 .frontEndWork2 {
-    background-image: url('FrontEnd/Mockup/visitTwinCitiesThumb.jpg');
+    background-image: url('FrontEnd/visitTwinCities.jpg');
 }
 .frontEndWork3 {
     background-image: url('FrontEnd/Mockup/wayfindingThumb.jpg');
