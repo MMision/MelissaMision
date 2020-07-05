@@ -431,17 +431,20 @@ a:link {
     background-image: url('thumbs/frontEndBanner.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: calc(131 / 200 * 100%) calc(66 / 200 * 100%);
 }
 .graphicDesign {
     background-image: url('thumbs/graphicDesignBanner.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: calc(131 / 200 * 100%) calc(66 / 200 * 100%);
 }
 
 .fineArt {
     background-image: url('thumbs/fineArtsBanner.jpg');
-    background-size: cover;z
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: calc(131 / 200 * 100%) calc(66 / 200 * 100%);
 }
 .frontEndWork {
     background-image: url('FrontEnd/Mockup/interactiveQuizThumb.jpg');
