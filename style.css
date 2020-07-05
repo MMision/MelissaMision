@@ -486,6 +486,7 @@ a:link {
     height: 43vh;
     width: 100%;
     display: inline-block;
+    background-position: calc(131 / 200 * 100%) calc(66 / 200 * 100%);
 }
 .frontEndWork2, .graphicDesignWork2, .fineArtWork2, .graphicDesignWork4, .graphicDesignWork6 {
     background-size: cover;
@@ -495,6 +496,7 @@ a:link {
     height: 43vh;
     width: 100%;
     display: inline-block;
+    background-position: calc(131 / 200 * 100%) calc(66 / 200 * 100%);
 }
 .frontEndWork3, .fineArtWork3 {
     background-size: cover;
@@ -506,6 +508,7 @@ a:link {
     display: inline-block;
     margin-top: 0;
     margin-right: 0;
+    background-position: calc(131 / 200 * 100%) calc(66 / 200 * 100%);
 }
 .frontEndWork4, .fineArtWork4 {
     background-size: cover;
@@ -517,6 +520,7 @@ a:link {
     display: inline-block;
     margin-top: 0;
     margin-bottom: 4%;
+    background-position: calc(131 / 200 * 100%) calc(66 / 200 * 100%);
 }
 .graphicDesignWork3, .graphicDesignWork5 {
     background-size: cover;
@@ -528,6 +532,7 @@ a:link {
     margin-right: 0;
     display: inline-block;
     margin-top: 0;
+    background-position: calc(131 / 200 * 100%) calc(66 / 200 * 100%);
 }
 .graphicDesignWork6, .frontEndWork4 {
     margin-bottom: 12%;
