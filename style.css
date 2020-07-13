@@ -470,12 +470,12 @@ a:link {
 .graphicDesignWork4 {
     background-image: url('graphicDesign/CBSA/cbsaThumb.jpg');
 }
-.graphicDesignWork5 {
+/*.graphicDesignWork5 {
     background-image: url('graphicDesign/MSA/msaThumb.jpg');
 }
 .graphicDesignWork6 {
     background-image: url('graphicDesign/Smoking/smokeThumb.jpg');
-}
+}*/
 
 /*Styles for FrontEnd, GraphicDesign, FineArt work galleries*/
 .frontEndWork, .graphicDesignWork, .fineArtWork {
