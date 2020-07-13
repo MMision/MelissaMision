@@ -635,6 +635,7 @@ a:link {
 
 /* Next & previous buttons */
 .prev, .next {
+    width: 8%;
     cursor: pointer;
     position: relative;
     padding-right: 0;
@@ -642,16 +643,16 @@ a:link {
     font-weight: bold;
     font-size: 26px;
     transition: 0.6s ease;
-    border-radius: 0;
     user-select: none;
     background-color: none;
-    text-align: left;
+    text-align: center;
     display: inline-block;
-    padding-right: 20%;
-    padding-left: 20%;
-    padding-top: 10%;
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-top: 10%;
 }
 .prev {
+        margin-right: 20% !important; 
 }
 /* Position the "next button" to the right */
 .next {
@@ -662,7 +663,7 @@ a:link {
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
     background-color: #066B94;
-    border-radius: 1000px;
+    border-radius: 100%;
     color: white;
 }
 /* Caption text */
@@ -974,16 +975,6 @@ h5 {
 .slideHeight {
     width: 60%;
     margin-bottom: 2%;
-}
-.prev, .next {
-    width: auto;
-    font-size: 26px;
-    left: 0;
-    margin-top: 10%;
-    margin-right: 30%;
-    padding-right: 0%;
-    padding-left: 0%;
-    padding-top: 0%;
 }
 .emailStyle {
     width: 57%; 
