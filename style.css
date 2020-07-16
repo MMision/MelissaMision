@@ -25,7 +25,7 @@ body {
 }
 .btn {
     background-color: transparent;
-    border: 2px solid white;
+    border: 2px solid #70c2db;
     color: #FFFFFF;
     text-align: center;
     width: 9rem;
@@ -43,6 +43,10 @@ body {
     height: 3rem;
     width: 9rem;
     clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0% 90%);
+}
+.btn:hover {
+    border: none;
+    background: #ffffff1c;
 }
 .angleOverlay {
     display: inline-block;
@@ -168,7 +172,7 @@ video {
     padding-left: 0%;
     padding-right: 0%;
 }
-#overlay {
+#darkOverlay {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -177,9 +181,39 @@ video {
     min-height: 100%;
     transform: translate(-50%, -50%);
     z-index: 1;
-    opacity: 0.2;
+    object-fit: cover;
+    background-image: linear-gradient(90deg, #161616, #86deff);
+    }
+#overlay, #codeOverlay {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: -100;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    opacity: 0.1;
     object-fit: cover;
     background: transparent scroll no-repeat 0 0;
+}
+#codeOverlay {
+      opacity: 0.1;
+}
+@keyframes zoominoutsinglefeatured {
+    0% {
+        transform: scale(1,1);
+    }
+    50% {
+        transform: scale(1.12,1.12);
+    }
+    100% {
+        transform: scale(1,1);
+    }
+}
+
+#codeOverlay img {
+    animation: zoominoutsinglefeatured 10s infinite ;
 }
 #other {
     position: fixed;
@@ -288,6 +322,17 @@ a:visited: {
     transform: translate(-50%,-50%);
     top: 55%;
     left: 50%;
+    animation: fadeInAnimation ease 5s;
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+} 
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+     } 
 }
 #nested4 {
     position: absolute;
