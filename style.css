@@ -217,6 +217,7 @@ video {
 }
 #other img {
     height: 100vh;
+    width: 100%;
 }
 #other {
     position: fixed;
@@ -674,6 +675,7 @@ a:link {
 }
 .slideHeight {
     width: 100%;
+    object-fit: cover;
     height: auto;
 }
 /* Hide the images by default */
