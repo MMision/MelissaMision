@@ -39,7 +39,7 @@ body {
     z-index: 9;
     text-decoration: none;
     position: relative;
-    margin-top: 3%;
+    margin-top: 7%;
     height: 3rem;
     width: 9rem;
     clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0% 90%);
@@ -976,6 +976,9 @@ h2 {
 }
 h4 {
     text-align: left;
+}
+.btn {
+    margin-top: 3%;
 }
 h5 {
      padding: 0px 16% 5% 0; 
