@@ -215,6 +215,9 @@ video {
 #codeOverlay img {
     animation: zoominoutsinglefeatured 10s infinite ;
 }
+#other img {
+    height: 100vh;
+}
 #other {
     position: fixed;
     top: 50%;
@@ -790,10 +793,24 @@ a:link {
   to {opacity: 1}
 }
 }
+@media only screen and (min-width: 280px) {
+    h1 {
+    font-size: 2rem;
+
+}
+h2 {
+    font-size: .9rem;
+}
+}
 /*Media Queries 320*/
 
 @media only screen and (min-width: 320px){
-
+h1 {
+    font-size: 2.7rem;
+}
+h2 {
+    font-size: 1.3rem;
+}
 }
 @media only screen and (min-width: 360px){
 
