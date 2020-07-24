@@ -251,7 +251,6 @@ ul {
     padding-inline-start: 0px;
 }
 .footer {
-    padding-top: 2.5%;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -276,7 +275,12 @@ ul {
 #linkref2 {
     color: #a5a5a5 !important;
     text-decoration: none;
-    position: relative;
+    position: absolute;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    top: 50%;
 }
 a:hover {
     color: #066B94;
