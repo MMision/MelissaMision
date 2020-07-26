@@ -23,6 +23,9 @@ body {
   display: block;
   text-align: right;
 }
+#redefined {
+
+}
 .btn {
     background-color: transparent;
     border: 2px solid #70c2db;
@@ -532,6 +535,38 @@ a:link {
 .graphicDesignWork4 {
     background-image: url('graphicDesign/CBSA/cbsaThumb.jpg');
 }
+.fineArts1 {
+    background-image: url('fineArts/Thumbs/koifishfinalThumb.jpg');
+}
+.fineArts2 {
+    background-image: url('fineArts/Thumbs/windingPathThumb.jpg');
+}
+.fineArts3 {
+    background-image: url('fineArts/Thumbs/morningReflectionsThumb.jpg');
+}
+.fineArts4 {
+    background-image: url('fineArts/Thumbs/thePathOfResilienceThumb.jpg');
+}
+.fineArts5 {
+    background-image: url('fineArts/Thumbs/lostInADreamThumb.jpg');
+}
+.fineArts6 {
+    background-image: url('fineArts/Thumbs/artThumb.jpg');
+}
+.fineArts7 {
+    background-image: url('fineArts/Thumbs/byeThumb.png');
+}
+.fineArts8 {
+    background-image: url('fineArts/Thumbs/artThumb.jpg');
+}
+.fineArts9 {
+    background-image: url('fineArts/Thumbs/backThumb.jpg');
+}
+.fineArts10 {
+    background-image: url('fineArts/Thumbs/skullThumb.jpg');
+}
+
+
 /*.graphicDesignWork5 {
     background-image: url('graphicDesign/MSA/msaThumb.jpg');
 }
@@ -540,6 +575,18 @@ a:link {
 }*/
 
 /*Styles for FrontEnd, GraphicDesign, FineArt work galleries*/
+.fineArts1, .fineArts2, .fineArts3, .fineArts4, .fineArts5, .fineArts6, .fineArts7, .fineArts8, .fineArts9, .fineArts10, .fineArts11, .fineArts12 {
+    background-repeat: no-repeat;
+    position: relative;
+    margin: 0 auto;
+    height: 76vh;
+    width: 100%;
+    margin: .5%;
+    display: inline-block;
+    background-position: calc(131 / 200 * 70%) calc(66 / 200 * 100%);
+    object-fit: cover !important;
+    background-size: cover;
+}
 .frontEndWork, .graphicDesignWork, .fineArtWork {
     background-size: cover;
     background-repeat: no-repeat;
@@ -908,6 +955,9 @@ h2 {
     -webkit-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
     top: 50%;
+}
+.fineArts1, .fineArts2, .fineArts3, .fineArts4, .fineArts5, .fineArts6, .fineArts7, .fineArts8, .fineArts9, .fineArts10, .fineArts11, .fineArts12 {
+    width: 30%;
 }
 .summaryOnly {
     position: relative;
