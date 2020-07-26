@@ -688,6 +688,7 @@ a:link {
 .slideHeight {
     width: 100%;
     object-fit: contain;
+    object-position: 20% 0%;
     height: 74vh;
 }
 /* Hide the images by default */
@@ -1068,7 +1069,7 @@ h5 {
 }
 .text {
     width: 35%;
-    padding-left: 5%;
+    padding-left: 2%;
     text-align: left;
 }
 .textSummary {
