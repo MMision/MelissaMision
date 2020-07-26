@@ -583,65 +583,17 @@ a:link {
     object-fit: cover !important;
     background-size: cover;
 }
-.frontEndWork, .graphicDesignWork, .fineArtWork {
+.frontEndWork, .graphicDesignWork, .fineArtWork, .frontEndWork2, .graphicDesignWork2, .fineArtWork2, .graphicDesignWork4, .graphicDesignWork6, .frontEndWork3, .fineArtWork3, .frontEndWork4, .fineArtWork4, .graphicDesignWork3, .graphicDesignWork5  {
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    margin: 0 auto;
+    margin: .5%;
     height: 43vh;
     width: 100%;
     display: inline-block;
     background-position: calc(131 / 200 * 100%) calc(66 / 200 * 100%);
 }
-.frontEndWork2, .graphicDesignWork2, .fineArtWork2, .graphicDesignWork4, .graphicDesignWork6 {
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-    margin: 0 auto;
-    height: 43vh;
-    width: 100%;
-    display: inline-block;
-    background-position: calc(131 / 200 * 100%) calc(66 / 200 * 100%);
-}
-.frontEndWork3, .fineArtWork3 {
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-    margin: 0 auto;
-    height: 280px;
-    width: 100%;
-    display: inline-block;
-    margin-top: 0;
-    margin-right: 0;
-    background-position: calc(131 / 200 * 100%) calc(66 / 200 * 100%);
-}
-.frontEndWork4, .fineArtWork4 {
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-    margin: 0 auto;
-    height: 43vh;
-    width: 100%;
-    display: inline-block;
-    margin-top: 0;
-    margin-bottom: 4%;
-    background-position: calc(131 / 200 * 100%) calc(66 / 200 * 100%);
-}
-.graphicDesignWork3, .graphicDesignWork5 {
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-    margin: 0 auto;
-    height: 43vh;
-    width: 100%;
-    margin-right: 0;
-    display: inline-block;
-    margin-top: 0;
-    background-position: calc(131 / 200 * 100%) calc(66 / 200 * 100%);
-}
-.graphicDesignWork6, .frontEndWork4 {
-    margin-bottom: 12%;
-}
+
 /*Work Styles*/
 .frontEnd, .graphicDesign, .fineArt {
     height: 26vh;
@@ -1019,36 +971,9 @@ h2 {
     top: 20%;
 }
 /*Styles for FrontEnd, GraphicDesign, FineArt work galleries*/
-.frontEndWork, .graphicDesignWork, .fineArtWork {
+.frontEndWork, .graphicDesignWork3, .graphicDesignWork5, .graphicDesignWork, .graphicDesignWork5, .graphicDesignWork6, .fineArtWork, .frontEndWork2, .graphicDesignWork2, .fineArtWork2, .graphicDesignWork4, .graphicDesignWork6, .frontEndWork3, .fineArtWork3, .frontEndWork4, .fineArtWork4 {
     height: 390px;
     width: 43%;
-    margin-right: 1%;
-}
-.frontEndWork2, .graphicDesignWork2, .fineArtWork2, .graphicDesignWork4, .graphicDesignWork6 {
-    height: 390px;
-    width: 43%;
-}
-.frontEndWork3, .fineArtWork3 {
-    height: 390px;
-    width: 43%;
-    margin-top: 1%;
-    margin-right: 1%;
-    margin-bottom: 4%;
-}
-.frontEndWork4, .fineArtWork4 {
-    height: 390px;
-    width: 43%;
-    margin-top: 1%;
-    margin-bottom: 4%;
-}
-.graphicDesignWork3, .graphicDesignWork5 {
-    height: 390px;
-    width: 43%;
-    margin-right: 1%;
-    margin-top: 1%;
-}
-.graphicDesignWork5, .graphicDesignWork6 {
-    margin-bottom: 4%;
 }
 }
 @media only screen and (min-width: 1024px){
@@ -1101,7 +1026,6 @@ h5 {
 .graphicDesignWork3, .graphicDesignWork5 {
     height: 520px;
 }
-
 .slideHeight {
     width: 60%;
     margin-bottom: 2%;
@@ -1148,19 +1072,7 @@ h5 {
     #nested4 {
     margin-bottom: 3%;
 }
-.frontEndWork, .graphicDesignWork, .fineArtWork {
-    height: 55vh;
-}
-.frontEndWork2, .graphicDesignWork2, .fineArtWork2, .graphicDesignWork4, .graphicDesignWork6 {
-    height: 55vh;
-}
-.frontEndWork3, .fineArtWork3 {
-    height: 55vh;
-}
-.frontEndWork4, .fineArtWork4 {
-    height: 55vh;
-}
-.graphicDesignWork3, .graphicDesignWork5 {
+.frontEndWork, .graphicDesignWork, .graphicDesignWork3, .graphicDesignWork5, .fineArtWork, .frontEndWork2, .graphicDesignWork2, .fineArtWork2, .graphicDesignWork4, .graphicDesignWork6, .frontEndWork3, .fineArtWork3, .frontEndWork4, .fineArtWork4 {
     height: 55vh;
 }
 .firstSet, .secondSet, .thirdSet {
