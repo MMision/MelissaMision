@@ -557,15 +557,11 @@ a:link {
     background-image: url('fineArts/Thumbs/byeThumb.png');
 }
 .fineArts8 {
-    background-image: url('fineArts/Thumbs/artThumb.jpg');
-}
-.fineArts9 {
     background-image: url('fineArts/Thumbs/backThumb.jpg');
 }
-.fineArts10 {
+.fineArts9 {
     background-image: url('fineArts/Thumbs/skullThumb.jpg');
 }
-
 
 /*.graphicDesignWork5 {
     background-image: url('graphicDesign/MSA/msaThumb.jpg');
