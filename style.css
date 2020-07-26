@@ -689,7 +689,7 @@ a:link {
     width: 100%;
     object-fit: contain;
     object-position: 20% 0%;
-    height: 74vh;
+    height: 50vh;
 }
 /* Hide the images by default */
 .mySlides {
@@ -946,6 +946,9 @@ h2 {
     font-size: 1.72rem;
     text-align: center;
     letter-spacing: .57rem;
+}
+.slideHeight {
+    height: 74vh;
 }
 .frontEnd, .graphicDesign, .fineArt {
     height: 268px;
