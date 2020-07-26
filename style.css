@@ -846,11 +846,11 @@ h2 {
     float: right;
     display: block;
   }
-  .navbar.responsive {
+.navbar.responsive {
     position: absolute;
     height: 100%;
     width: 90%;
-    transition: width 1s;
+    transition: width .7s;
 }
 .navbar.responsive .icon {
     position: absolute;
