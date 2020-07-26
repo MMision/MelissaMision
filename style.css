@@ -420,7 +420,6 @@ h2 {
 h4 {
     font-family: Merriweather-BlackItalic, serif;
     font-style: italic;
-    font-size: 1.8rem;
     color: #cbcbcb;
     padding: 0px 0px 0px 0px;
     letter-spacing: 2px;
@@ -429,16 +428,21 @@ h4 {
     height: 14px;
     margin-top: 8%;
 }
+h4, .text {
+    font-size: 1.8rem;
+}
 h5 {
     font-family: NunitoSans-Light, sans-serif;
-    font-size: 14px;
-    color: #797979;
     letter-spacing: 0px;
     margin-left: 0;
     margin-top: -1%;
     line-height: 1.4;
     text-align: center;
     font-weight: 500;
+}
+h5, .textSummary {
+    font-size: .9rem;
+    color: #797979;
 }
 /*About Page Styles*/
 #dash {
@@ -727,7 +731,6 @@ a:link {
 /* Caption text */
 .text {
     font-family: NunitoSans-Light, sans-serif;
-    font-size: 2rem;
     color: #066B94;
     position: absolute;
     width: 100%;
@@ -738,7 +741,6 @@ a:link {
 .textSummary {
     color: #0000008a;
     font-family: NunitoSans-Light, sans-serif;
-    font-size: 14px;
     position: absolute;
     text-align: center;
     line-height: 1.6;
@@ -1070,16 +1072,14 @@ h5 {
     text-align: left;
 }
 .textSummary {
-    color: #0000008a;
     font-family: NunitoSans-Light, sans-serif;
-    font-size: 14px;
     position: relative;
     text-align: left;
     line-height: 1.6;
-    margin: 0 0 0 0;
+    margin: 0 0 0px 0px;
     padding-left: 0%;
     padding-right: 0%;
-    padding-top: 5%;
+    padding-top: 3%;
     padding-bottom: 0%;
     display: inline-block;
     left: 0;
