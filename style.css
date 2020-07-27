@@ -685,7 +685,7 @@ a:link {
     width: 100%;
     object-fit: contain;
     object-position: 20% 0%;
-    height: 50vh;
+    height: auto;
 }
 /* Hide the images by default */
 .mySlides {
@@ -888,6 +888,9 @@ h2 {
 .navDark {
         display: none !important;
 }
+.slideHeight {
+    height: 50vh;
+}
 .navbar a {
   padding: 0;
   float: none;
@@ -1079,7 +1082,8 @@ h5 {
     padding-left: 28%;
     top: 29%;
 }
-.angleOverlay {
-    width: 26%;
-    }
+.angleAnimation {
+    clip-path: polygon(0% 0%, 100% 0%, 0 100%, 0 100%);
+}
+
 }
