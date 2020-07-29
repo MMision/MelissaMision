@@ -18,6 +18,9 @@ body {
 /*video {
     object-fit: cover;
 }*/
+.frontEndWork3, .frontEndWork4 {
+    display: none !important;
+}
 .navbar a {
   float: right;
   display: block;
