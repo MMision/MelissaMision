@@ -683,7 +683,7 @@ a:link {
 }
 .slideHeight {
     width: 100%;
-    object-fit: contain;
+    object-fit: cover;
     object-position: 20% 0%;
     height: auto;
 }
