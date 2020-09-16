@@ -82,7 +82,6 @@ body {
     font-size: 16px;
     z-index: 11;
     overflow: hidden;
-    background-color: rgba(255, 255, 255, 0.91);
     background-color: rgb(255 255 255 / 91%);
     margin: 0 0 0 auto;
     height: 13%;
@@ -528,15 +527,18 @@ a:link {
     background-image: url('FrontEnd/Mockup/wayfindingThumb2.jpg');
 }
 .graphicDesignWork {
-    background-image: url('graphicDesign/cityScapes/cityScapesThumb.png');
+    background-image: url('graphicDesign/watermark/facebook.jpg');
 }
-.graphicDesignWork2 {    
-    background-image: url('graphicDesign/Retirement/retirementThumb.jpg');
+.graphicDesignWork2 {   
+    background-image: url('graphicDesign/cityScapes/cityScapesThumb.png'); 
 }
 .graphicDesignWork3 {
-    background-image: url('graphicDesign/Mechanic/mechanicThumb.jpg');
+        background-image: url('graphicDesign/Retirement/retirementThumb.jpg');
 }
 .graphicDesignWork4 {
+        background-image: url('graphicDesign/Mechanic/mechanicThumb.jpg');
+}
+.graphicDesignWork5 {
     background-image: url('graphicDesign/CBSA/cbsaThumb.jpg');
 }
 .fineArts1 {
