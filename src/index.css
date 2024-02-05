@@ -1,0 +1,139 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	box-sizing: border-box;
+	max-width: 100%;
+}
+
+body {
+	margin: 0;
+	display: block;
+	position: relative;
+	place-items: center;
+	min-height: 100vh;
+	width: 100vw;
+	height: 100vh;
+	max-width: 100%;
+	overflow-x: hidden;
+	font-family: "DM Serif Display", serif;
+	/* font-family: "Unna", serif; */
+	font-weight: 400;
+}
+
+:root {
+	/* font-family: "Unna", serif, Inter, system-ui, Avenir, Helvetica, Arial,
+	sans-serif; */
+	line-height: 1.5;
+	font-weight: 400;
+
+	color-scheme: light dark;
+	color: rgba(255, 255, 255, 0.87);
+	background-color: white;
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+@media only screen and (min-width: 1px) {
+	.entirePagePadding {
+		padding: 5rem;
+	}
+	a {
+		font-weight: 700;
+		text-decoration: inherit;
+		color: white;
+	}
+	li {
+		color: #ffffff;
+		font-weight: 600;
+	}
+	h1 {
+		font-size: 2rem;
+		line-height: 1;
+	}
+
+	button {
+		border-radius: 8px;
+		border: 1px solid transparent;
+		padding: 0.6em 1.2em;
+		font-size: 1em;
+		font-weight: 500;
+		font-family: inherit;
+		background-color: #1a1a1a;
+		cursor: pointer;
+		transition: border-color 0.25s;
+	}
+	button:hover {
+		border-color: #06879f;
+		border-width: medium;
+	}
+	button:focus,
+	button:focus-visible {
+		outline: 4px auto -webkit-focus-ring-color;
+	}
+	.btnStyle,
+	.aboutBtn {
+		background: linear-gradient(37deg, #151515, #292929);
+		width: 14rem;
+		height: 4.5rem;
+		font-size: 1.2rem;
+		color: white !important;
+		border-radius: 5rem;
+		margin-top: 3rem;
+		font-weight: 700;
+	}
+
+	.btnStyle:hover,
+	.aboutBtn:hover {
+		width: 30rem;
+		margin-top: 5rem;
+		transform: rotate(-5deg);
+		transition: width 2s, margin-top 2s, transform 2s;
+	}
+	.aboutBtn {
+		margin-left: 7rem !important;
+	}
+
+	.highlightWord {
+		color: #4ad9cf !important;
+		font-family: "Just Another Hand", cursive;
+		font-size: 6rem;
+		line-height: 0.6;
+	}
+	.homePageHeaderh1 {
+		font-weight: 400;
+		font-size: 2.5rem;
+		letter-spacing: 0.25rem;
+	}
+	.homePageHeaderh1Spacing {
+		letter-spacing: 0.1rem;
+		font-weight: 700;
+	}
+}
+@media only screen and (min-width: 600px) {
+	h1 {
+		font-size: 2.5rem;
+	}
+	.aboutBtn {
+		margin-left: 11rem !important;
+	}
+}
+@media only screen and (min-width: 800px) {
+	h1 {
+		font-size: 3.2rem;
+	}
+	.highlightWord {
+		font-size: 10rem;
+		line-height: 0.8;
+	}
+	.homePageHeaderh1Spacing {
+		letter-spacing: 0.3rem;
+	}
+	.homePageHeaderh1 {
+		letter-spacing: 0rem;
+	}
+}

@@ -1,0 +1,69 @@
+@media only screen and (min-width: 1px) {
+	.nav {
+		display: flex;
+		flex: 100%;
+		width: 100vw !important;
+		align-items: center;
+		justify-content: space-between;
+		background-image: linear-gradient(
+			180deg,
+			rgb(0 34 53 / 82%),
+			rgb(255 255 255 / 0%)
+		);
+		padding: 1rem 1rem;
+		height: 18%;
+		position: relative;
+		z-index: 3;
+	}
+	.flexing {
+		flex: 100%;
+	}
+	.nav ul {
+		list-style: none;
+		display: inline-flex;
+		align-items: center;
+		gap: 4rem;
+		color: white;
+	}
+	.nav a:visited {
+		color: #4ad9cf;
+	}
+	.nav a:hover {
+		color: white;
+		transition: font-size 2s;
+		font-size: 3rem !important;
+	}
+	.nav a:link,
+	.nav a:visited {
+		text-decoration: none;
+		/* text-transform: uppercase; */
+		transition: font-size 2s;
+		font-size: 1.5rem;
+		font-weight: 600;
+		letter-spacing: 0.1rem;
+	}
+
+	/* CSS Modules feature */
+	.nav a:global(.active) {
+		color: white;
+		border-bottom: 7px #4ad9cf;
+		border-bottom-style: solid;
+		padding-left: 2rem;
+		font-size: 2.4rem;
+	}
+
+	a.ctaLink:link,
+	a.ctaLink:visited {
+		background-color: var(--color-brand--2);
+		color: var(--color-dark--0);
+		padding: 0.8rem 2rem;
+		border-radius: 7px;
+	}
+}
+@media only screen and (min-width: 600px) {
+}
+@media only screen and (min-width: 800px) {
+	.nav {
+		padding: 1rem 10rem;
+	}
+}

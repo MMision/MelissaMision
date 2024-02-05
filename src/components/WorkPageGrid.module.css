@@ -1,0 +1,14 @@
+.workAbout {
+	height: 48vh;
+	width: 100vw;
+}
+
+.bannerContainer {
+	max-height: 100%;
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}

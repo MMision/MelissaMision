@@ -1,0 +1,173 @@
+.gallery {
+	height: 100%;
+	width: auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+.setGallery {
+	display: block !important;
+	z-index: 9;
+	background: white !important;
+	height: 100% !important;
+	width: 90vw !important;
+}
+.workPageGrid h2,
+.galleryPrev h2 {
+	position: absolute;
+	top: 80%;
+	margin-left: 7%;
+	padding: 0rem 2rem 0rem 2rem;
+	color: #4ad9cf;
+	background: linear-gradient(37deg, #151515, #292929);
+	color: white !important;
+	border-radius: 5rem;
+	font-weight: 400;
+	z-index: 9;
+	width: auto;
+	height: auto !important;
+	display: inline-flex;
+	flex: auto;
+}
+/* if page is dev, pixel art or fine arts */
+.galleryPrev,
+.galleryPrev img,
+.galleryPrevModal {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	height: 35vh;
+	width: 100vw;
+	object-fit: cover;
+	display: inline-flex;
+	z-index: 1;
+}
+.galleryPrevModal {
+	width: 85vw !important;
+	height: 45vh;
+	object-fit: cover !important;
+	padding: 5%;
+}
+.overlay {
+	display: inline-block;
+	position: absolute;
+	backdrop-filter: blur(3px);
+	background-color: #0d1128e0;
+	width: 100%;
+	height: 104vh;
+	z-index: 15;
+}
+.overlayNone {
+	backdrop-filter: none;
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap;
+}
+.galleryPrevExpanded {
+	width: 100vw;
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.modalBackgroundNone {
+	display: inherit;
+}
+.modalBackground {
+	background: white;
+	height: 70%;
+	width: fit-content;
+	display: block;
+	position: absolute;
+	z-index: 9;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	border-radius: 20px;
+}
+.activeGallery {
+	z-index: 10 !important;
+	background: white;
+	height: fit-content;
+	width: 100vw;
+	position: relative;
+}
+.toggleOn {
+	display: block !important;
+}
+.modalp {
+	color: #151515;
+	position: absolute;
+	height: fit-content;
+	width: auto !important;
+	object-fit: cover;
+	display: inline-flex;
+	padding: 0rem 2rem 0rem 0rem !important;
+}
+.modalh2 {
+	position: relative;
+	height: fit-content;
+	width: fit-content;
+	object-fit: cover;
+	display: inline-flex;
+	font-size: 1.7rem;
+	color: #151515;
+}
+.modalText {
+	width: auto;
+	display: block;
+	padding: 0rem 2rem 3rem 2rem;
+	flex: 45%;
+}
+.none {
+	display: none !important;
+}
+@media only screen and (min-width: 600px) {
+	.modalBackground {
+		display: flex !important;
+		/* height: 75%; */
+		flex-wrap: wrap;
+		width: 75vw;
+	}
+	.galleryPrev,
+	.galleryPrev img,
+	.galleryPrevModal {
+		height: 52vh;
+		width: 33.33333333333333vw;
+	}
+
+	.galleryPrevModal {
+		object-fit: contain !important;
+		width: 55% !important;
+		height: 100% !important;
+		display: inline-flex;
+		flex: 55%;
+	}
+
+	/* .modalp {
+		position: absolute !important;
+		display: block !important;
+		padding: 11rem 0rem 0rem 34rem !important;
+		height: auto !important;
+		padding: 0rem 0rem 0rem 16rem !important;
+
+		flex: 100% !important;
+	} */
+	.modalText {
+		width: 33.33333333333333vw;
+		display: block;
+		padding: 8rem 0rem 0rem 0rem;
+		flex: 45%;
+	}
+	.modalh2 {
+		font-size: 2rem;
+		width: 33.33333333333333vw;
+		display: inline-flex;
+		padding: 0rem 0rem 0rem 0rem;
+	}
+	.modalp {
+		width: auto !important;
+	}
+}
+@media only screen and (min-width: 800px) {
+}
