@@ -26,17 +26,17 @@ export default function Work() {
 						</p>
 					</div>
 					<div className={styles.bannerContainer}>
-						<NavLink reloadDocument to={"/development"}>
+						<NavLink reloadDocument to={"assets/development"}>
 							<div className={styles.dev}>
 								<h2>Development</h2>
 							</div>
 						</NavLink>
-						<NavLink reloadDocument to={"/pixelArt"}>
+						<NavLink reloadDocument to={"assets/pixelArt"}>
 							<div className={styles.pixelArt}>
 								<h2>Pixel Art</h2>
 							</div>
 						</NavLink>
-						<NavLink reloadDocument to={"/fineArts"}>
+						<NavLink reloadDocument to={"assets/fineArts"}>
 							<div className={styles.fineArts}>
 								<h2>Fine Arts</h2>
 							</div>
