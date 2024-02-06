@@ -1,0 +1,7 @@
+# Redirects from what the browser requests to what we serve
+/Homepage.jsx               /
+/Work.jsx    /work
+/Development.jsx                /development
+/PixelArt.jsx              /pixelArt
+/FineArts.jsx               /fineArts
+/About.jsx          /about
