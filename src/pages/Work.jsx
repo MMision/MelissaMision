@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import PageNav from "../components/PageNav";
 import styles from "./Work.module.css";
 
@@ -26,21 +26,21 @@ export default function Work() {
 						</p>
 					</div>
 					<div className={styles.bannerContainer}>
-						<NavLink reloadDocument to={"/development"}>
+						<Link reloadDocument to={"/development"}>
 							<div className={styles.dev}>
 								<h2>Development</h2>
 							</div>
-						</NavLink>
-						<NavLink reloadDocument to={"/pixelArt"}>
+						</Link>
+						<Link reloadDocument to={"/pixelArt"}>
 							<div className={styles.pixelArt}>
 								<h2>Pixel Art</h2>
 							</div>
-						</NavLink>
-						<NavLink reloadDocument to={"/fineArts"}>
+						</Link>
+						<Link reloadDocument to={"/fineArts"}>
 							<div className={styles.fineArts}>
 								<h2>Fine Arts</h2>
 							</div>
-						</NavLink>
+						</Link>
 					</div>
 				</section>
 			</div>
