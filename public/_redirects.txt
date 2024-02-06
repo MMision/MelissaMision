@@ -1,7 +1,0 @@
-/* /index.html 200
-/Homepage.jsx               /
-/Work.jsx    /work
-/Development.jsx                /development
-/PixelArt.jsx              /pixelArt
-/FineArts.jsx               /fineArts
-/About.jsx          /about
