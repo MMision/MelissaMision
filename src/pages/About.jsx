@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import PageNav from "../components/PageNav";
 import styles from "./About.module.css";
 
@@ -23,7 +22,9 @@ export default function About() {
 							immersing myself in 2d video games.
 						</p>
 						<button className="aboutBtn">
-							<Link to="/work">resume</Link>
+							<a href="https://drive.google.com/file/d/1J9NBKfd0l9L5oNzQA9wq514zQ0_s-6nL/view?usp=drive_link">
+								resume
+							</a>
 						</button>
 					</div>
 				</section>
