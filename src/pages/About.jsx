@@ -21,11 +21,9 @@ export default function About() {
 							nature&apos;s beauty. When I&apos;m not outdoors, I enjoy
 							immersing myself in 2d video games.
 						</p>
-						<button className="aboutBtn">
-							<a href="https://drive.google.com/file/d/1J9NBKfd0l9L5oNzQA9wq514zQ0_s-6nL/view?usp=drive_link">
-								resume
-							</a>
-						</button>
+						<a href="https://drive.google.com/file/d/1J9NBKfd0l9L5oNzQA9wq514zQ0_s-6nL/view?usp=drive_link">
+							<button className="aboutBtn">resume</button>
+						</a>
 					</div>
 				</section>
 			</div>
