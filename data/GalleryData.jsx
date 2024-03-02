@@ -161,11 +161,12 @@ if (window.location.pathname === "/pixelArt") {
 			description: "",
 			imagePath: "/dev-banner-background.JPG",
 		},
-		// {
-		// 	name: "Dev 2",
-		// 	description: "Blah blah bla",
-		// 	imagePath: "/dev-banner-background.JPG",
-		// },
+		{
+			name: "Portfolio Website",
+			description:
+				"This was written in react.js with vite as the data management tool.",
+			imagePath: "/portfolio-website-1.JPG",
+		},
 	];
 }
 
