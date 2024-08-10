@@ -85,6 +85,8 @@
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 	border-radius: 20px;
+	flex-wrap: wrap;
+	flex-direction: column;
 }
 .activeGallery {
 	z-index: 10 !important;
@@ -137,7 +139,7 @@
 
 	.galleryPrevModal {
 		object-fit: contain !important;
-		width: 55% !important;
+		width: 100% !important;
 		height: 100% !important;
 	}
 
@@ -151,13 +153,13 @@
 		flex: 100% !important;
 	} */
 	.modalText {
-		width: 33.33333333333333vw;
+		width: 100%;
 		padding: 0rem 0rem 6rem 4rem;
 		flex: 45%;
 	}
 	.modalh2 {
 		font-size: 2rem;
-		width: 33.33333333333333vw;
+		width: 100%;
 		display: inline-flex;
 		padding: 0rem 0rem 0rem 0rem;
 	}

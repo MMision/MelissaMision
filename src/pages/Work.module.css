@@ -154,7 +154,9 @@
 	.workPage section,
 	.contactPage section {
 		width: 100vw;
-		display: inline-flex;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
 	}
 	.contactPage section {
 		position: relative;
@@ -297,6 +299,9 @@
 	.workPage p,
 	.workPageGrid p {
 		padding: 0.7rem 2rem 2rem 2rem;
+		flex: 100%;
+		display: inline-flex;
+		position: relative;
 	}
 	.workPage h1,
 	.workPageGrid h1 {
@@ -336,7 +341,7 @@
 	/* if page is dev, pixel art or fine arts */
 	.workPageBanner {
 		position: relative;
-		height: 430px;
+		height: 560px;
 		text-align: center;
 		background-size: 100% 100%;
 		flex-direction: row;
@@ -451,6 +456,9 @@
 @media only screen and (min-width: 800px) {
 	h3 {
 		font-size: 6rem;
+	}
+	.workPageBanner {
+		height: 430px;
 	}
 	.webicon1,
 	.webicon2,
