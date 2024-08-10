@@ -29,8 +29,8 @@ export default function Artclasses() {
 								<br></br>
 								The thing that is so beautiful about art is that it&apos;s an
 								unique expression of someone&apos;s story and experience. I
-								would love to help support and guide anyone on their artistic
-								journey and growth.
+								would love to help support and encourage anyone on their
+								artistic journey and growth.
 							</p>
 						</div>
 					</div>
@@ -54,16 +54,16 @@ export default function Artclasses() {
 							<h3>Class sizes</h3>
 							<p className={styles.classParagraph}>
 								1. One-to-one live instruction <br></br>
-								Duration: 1 hour <br></br>Cost: $10
+								Duration: 1 hour <br></br>Cost: Tbd
 								<br></br>
 								<br></br>2. Five-to-one live instruction
 								<br></br>
-								Duration: 1 hour <br></br>Cost: $8 per person<br></br>
+								Duration: 1 hour <br></br>Cost: Tbd<br></br>
 								<br></br>
 								3. Eight-to-one live instruction
 								<br></br>
 								Duration: 1 hour<br></br>
-								Cost: $5 per person
+								Cost: Tbd
 							</p>
 						</div>
 					</div>
@@ -75,8 +75,8 @@ export default function Artclasses() {
 						<div className={styles.classGroupMaterials}>
 							<h3>Materials</h3>
 							<p className={styles.classParagraph}>
-								I went through a lot of sketchbooks drawing as a kid. I also
-								went through a ton of printer paper and ruled paper when I
+								I went through a lot of sketchbooks growing up. I also went
+								through a ton of printer paper and ruled paper when I
 								didn&apos;t have sketchbooks to draw in. I drew a lot with
 								standard pencils, mechanical pencils and whatever pens I found
 								lying around.
@@ -87,13 +87,13 @@ export default function Artclasses() {
 								didn&apos;t have the same supplies.
 								<br></br>
 								<br></br>I have gotten to use a variety of art brands since
-								then. While some brands perform differently in a variety of
-								ways, you can use any brand that you have on hand to create
-								meaningful art. You alone are enough to create beautiful art.
+								then, and I can happily say you can use any brand that you have
+								on hand to create meaningful art. Your materials and how
+								expensive or inexpensive they are really do not matter.
 								<br></br>
 								<br></br>
 								The person is what makes the art, not the material. Please
-								don&apos;t feel nervous or apprehensive to sign up for an art
+								don&apos;t feel nervous or apprehensive to sign up for any art
 								class because of whatever art supplies you may or may not have
 								on hand.
 							</p>
@@ -105,26 +105,10 @@ export default function Artclasses() {
 						<div className={styles.welcomeGroup}>
 							<h3>Welcoming Art Classes</h3>
 							<p className={styles.welcomeParagraph}>
-								I want to foster an environment that is kind, comfortable and
-								welcoming for anyone who signs up. Bullying, racism and
-								harassment of any kind are not welcome.<br></br>
-								<br></br> If anyone engages in any of these behaviors, I will
-								take a moment to pause the class to address the behavior. I want
-								to make sure the individual(s) know that the behavior is not
-								allowed, and so that they can take a moment to pause and
-								understand how deep of an impact their words or actions could
-								have on someone&apos;s wellbeing.
-								<br></br>
-								<br></br>
-								Once they have acknowledged and apologized for their actions we
-								can resume class.
-								<br></br>
-								<br></br>
-								Mistakes happen to all of us, the most important thing is
-								addressing these situations when they happen so that we can
-								learn and grow from them. If the behavior continues to happen
-								after acknowledging it, the student will be removed from the
-								class.
+								Environments that are kind, comfortable and welcoming are
+								incredibly important for anyone to feel comfortable and
+								confident in expressing themselves while building their skills.
+								Bullying, racism and harassment of any kind are not welcome.
 							</p>
 						</div>
 						<div className={styles.webicon4}></div>

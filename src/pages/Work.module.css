@@ -2,6 +2,12 @@
 	p {
 		font-family: "Noto Sans JP", sans-serif;
 	}
+	#root {
+		top: 0%;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+	}
 	h3 {
 		color: #4ad9cf !important;
 		font-family: "Just Another Hand", cursive;
@@ -11,6 +17,10 @@
 		flex: 100%;
 		height: fit-content;
 		line-height: 1;
+	}
+	.toTop {
+		top: 0px;
+		position: absolute;
 	}
 	.classSection {
 		background-color: white;
@@ -324,16 +334,69 @@
 		width: auto;
 	}
 	/* if page is dev, pixel art or fine arts */
-
-	.workPageGrid section {
+	.workPageBanner {
+		position: relative;
+		height: 430px;
+		text-align: center;
+		background-size: 100% 100%;
+		flex-direction: row;
+		display: flex !important;
+		flex-wrap: wrap !important;
+		background-position: center center;
+	}
+	.workPageGrid {
 		width: 100vw;
 		height: 100%;
 		display: inline-block;
 		flex-direction: column;
 		flex-wrap: wrap;
 	}
-
 	.workAboutGrid {
+		flex-direction: row;
+		display: flex;
+		flex-wrap: wrap;
+		background-size: cover;
+		justify-content: center;
+		height: -webkit-fill-available;
+	}
+	.workAboutGrid img {
+		background-position: center;
+		object-fit: cover;
+		display: inline-flex;
+		height: -webkit-fill-available;
+		width: 100vw;
+		text-align: center;
+		justify-content: center;
+		background: #fff;
+		object-position: center center;
+		border: 0px;
+		max-width: 100%;
+	}
+	.textContent {
+		position: absolute;
+		text-align: left;
+		flex-direction: column;
+		display: inline-flex;
+		width: fit-content;
+		z-index: 11;
+		justify-content: center;
+		height: fit-content;
+		top: 10%;
+	}
+	.bannerShadow {
+		display: flex !important;
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		background-image: linear-gradient(
+			344deg,
+			rgb(0 145 213 / 59%),
+			rgb(1 0 53 / 90%)
+		);
+		z-index: 11;
+		top: 0;
+	}
+	/* .workAboutGrid {
 		background-image: linear-gradient(
 				344deg,
 				rgb(0 145 213 / 59%),
@@ -348,7 +411,7 @@
 		height: 48vh;
 		width: 100vw;
 		padding-bottom: 24rem;
-	}
+	} */
 
 	.pixel7 {
 		background-image: linear-gradient(
@@ -457,9 +520,7 @@
 	.bannerContainer {
 		width: 40vw;
 	}
-	.workAboutGrid {
-		height: 48vh;
-	}
+
 	.workPage p {
 		padding: 0.7rem 9rem 0rem 11rem;
 	}

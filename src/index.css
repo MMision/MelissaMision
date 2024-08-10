@@ -22,7 +22,12 @@ body {
 	/* font-family: "Unna", serif; */
 	font-weight: 400;
 }
-
+#root {
+	top: 0%;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
 :root {
 	/* font-family: "Unna", serif, Inter, system-ui, Avenir, Helvetica, Arial,
 	sans-serif; */
