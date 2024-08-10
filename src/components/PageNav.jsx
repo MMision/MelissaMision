@@ -10,7 +10,13 @@ function PageNav() {
 
 			<ul>
 				<li>
-					<NavLink to="/work">work</NavLink>
+					<NavLink to="/portfolio">portfolio</NavLink>
+				</li>
+				{/* <li>
+					<NavLink to="/contact">contact</NavLink>
+				</li> */}
+				<li>
+					<NavLink to="/artclasses">art classes</NavLink>
 				</li>
 				<li>
 					<NavLink to="/about">about</NavLink>

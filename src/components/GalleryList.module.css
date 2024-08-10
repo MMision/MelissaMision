@@ -47,6 +47,7 @@
 	height: 45vh;
 	object-fit: cover !important;
 	padding: 5%;
+	flex: 100%;
 }
 .overlay {
 	display: inline-block;
@@ -60,7 +61,7 @@
 .overlayNone {
 	backdrop-filter: none;
 	background-color: white;
-	display: flex;
+	display: inline-flex;
 	flex-wrap: wrap;
 }
 .galleryPrevExpanded {
@@ -74,9 +75,9 @@
 }
 .modalBackground {
 	background: white;
-	height: 70%;
+	height: fit-content;
 	width: fit-content;
-	display: block;
+	display: flex;
 	position: absolute;
 	z-index: 9;
 	top: 50%;
@@ -116,7 +117,7 @@
 .modalText {
 	width: auto;
 	display: block;
-	padding: 0rem 2rem 3rem 2rem;
+	padding: 0rem 0rem 6rem 4rem;
 	flex: 45%;
 }
 .none {
@@ -124,8 +125,6 @@
 }
 @media only screen and (min-width: 600px) {
 	.modalBackground {
-		display: flex !important;
-		/* height: 75%; */
 		flex-wrap: wrap;
 		width: 75vw;
 	}
@@ -140,8 +139,6 @@
 		object-fit: contain !important;
 		width: 55% !important;
 		height: 100% !important;
-		display: inline-flex;
-		flex: 55%;
 	}
 
 	/* .modalp {
@@ -155,8 +152,7 @@
 	} */
 	.modalText {
 		width: 33.33333333333333vw;
-		display: block;
-		padding: 8rem 0rem 0rem 0rem;
+		padding: 0rem 0rem 6rem 4rem;
 		flex: 45%;
 	}
 	.modalh2 {

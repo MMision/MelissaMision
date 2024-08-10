@@ -1,0 +1,43 @@
+@media only screen and (min-width: 1px) {
+	input[type="text" i] {
+		border-radius: 0rem;
+		padding-block: 10px;
+		padding-inline: 15px;
+		margin-top: 4%;
+		border: 5px solid #4ad9cf !important;
+		width: 60%;
+	}
+	form {
+		width: auto;
+		height: auto;
+		justify-content: center;
+	}
+	.formContainer {
+		background-color: white;
+		border-radius: 2rem;
+		padding: 2rem;
+		width: fit-content;
+		position: relative;
+		height: fit-content;
+		top: 0;
+		margin: 5% 5% 5% 5%;
+	}
+	.formContainer p {
+		color: black;
+		padding: 0rem !important;
+	}
+	.formContainer h3 {
+		position: relative;
+		padding: 0rem 2rem 0rem 2rem;
+		color: #4ad9cf !important;
+		background: linear-gradient(37deg, #151515, #292929);
+		border-radius: 5rem;
+		font-weight: 400;
+		z-index: 9;
+		width: fit-content;
+		height: auto !important;
+		font-family: "Just Another Hand", cursive;
+		font-size: 2.5rem;
+		margin-bottom: 1rem !important;
+	}
+}

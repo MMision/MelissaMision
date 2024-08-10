@@ -68,6 +68,32 @@ let GalleryData = null;
 if (window.location.pathname === "/pixelArt") {
 	GalleryData = [
 		{
+			name: "Spaceship Crew",
+			description: "Digital illustration created with wacom tablet.",
+			imagePath: "/illustration1.JPG",
+		},
+		{
+			name: "Colectivo Coffee Shop, Shorewood Location",
+			description:
+				"Digital illustration created with wacom tablet of colectivo's shorewood location coffeeshop.",
+			imagePath: "/illustration5.JPG",
+		},
+		{
+			name: "Spaceship Member",
+			description: "Digital illustration created with wacom tablet.",
+			imagePath: "/illustration2.JPG",
+		},
+		{
+			name: "Airplane in Space",
+			description: "Digital illustration created with wacom tablet.",
+			imagePath: "/illustration4.JPG",
+		},
+		{
+			name: "Aircraft Illustrations",
+			description: "Digital illustrations created with wacom tablet.",
+			imagePath: "/illustration3.JPG",
+		},
+		{
 			name: "Swamp Environment Concept",
 			description: "Swamp landscape for a themed level. Made in aseprite.",
 			imagePath: "/pixel1.JPG",
@@ -108,6 +134,12 @@ if (window.location.pathname === "/pixelArt") {
 	];
 } else if (window.location.pathname === "/fineArts") {
 	GalleryData = [
+		{
+			name: "North Idlewild Ave",
+			description:
+				"Sketch of North Idlewild Ave done with Uniball signo 207 0.77mm blue gel pen on paper",
+			imagePath: "/Illustration6.JPG",
+		},
 		{
 			name: "Puzzle Pieces",
 			description: "Acrylic on canvas",
@@ -152,6 +184,11 @@ if (window.location.pathname === "/pixelArt") {
 			name: "Morning Reflections",
 			description: "Acrylic on canvas",
 			imagePath: "/fineArt9.JPG",
+		},
+		{
+			name: "Estabrook Park",
+			description: "Uniball signo 207 0.77mm blue gel pen on paper",
+			imagePath: "/fineArt10.JPG",
 		},
 	];
 } else {

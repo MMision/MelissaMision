@@ -13,8 +13,8 @@ export default function Homepage() {
 					<span className="homePageHeaderh1">something </span>
 					<span className="highlightWord">captivating.</span>
 				</h1>
-				<Link to="/work">
-					<button className="btnStyle">projects</button>
+				<Link to="/portfolio">
+					<button className="button-btnStyle">projects</button>
 				</Link>
 			</section>
 		</main>

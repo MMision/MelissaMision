@@ -13,15 +13,15 @@ export default function PixelArt() {
 				<section>
 					<div className={styles.workAboutGrid}>
 						<h1>
-							<span className={styles.workPageh1Color}>Pixel Art </span>
-							pieces
+							<span className={styles.workPageh1Color}>Illustration </span>
+							work
 						</h1>
 						<p>
 							I was born in 1993, and I fondly remember growing up playing video
 							games on the Super Nintendo with my family and friends. I remember
 							feeling completley immersed in the beautiful worlds and stories
-							these games created, and have carried an affinity for 2-d pixel
-							games since. Most of these pieces were drawn in Aseprite.
+							these games created, and have carried an affinity for illustrating
+							and 2-d pixel games since.
 						</p>
 					</div>
 					<GalleryList />
