@@ -255,15 +255,15 @@
 	}
 
 	.dev:hover {
-		transition: height 2s;
+		transition: height 500ms;
 		height: 40vh !important;
 	}
 	.pixelArt:hover {
-		transition: height 2s;
+		transition: height 500ms;
 		height: 40vh !important;
 	}
 	.fineArts:hover {
-		transition: height 2s;
+		transition: height 500ms;
 		height: 40vh !important;
 	}
 	.pixelArt {
