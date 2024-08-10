@@ -9,21 +9,23 @@ export default function Portfolio() {
 			<div className={styles.workContainer}>
 				<section>
 					<div className={styles.workAbout}>
-						<h1>
-							You&apos;re
-							<span className={styles.workPageh1Color}>
-								{" "}
-								welcome to wander.
-							</span>
-						</h1>
-						<p>
-							There are three paths to explore. Development is largely websites
-							and applications. Pixel art has illustrated pixel
-							drawings/concepts and animations. Fine arts has an assortment of
-							paintings, sketches and illustrations.<br></br>
-							<br></br>
-							Relax, take your time among what path(s) you choose.
-						</p>
+						<div className={styles.textContent}>
+							<h1>
+								You&apos;re
+								<span className={styles.workPageh1Color}>
+									{" "}
+									welcome to wander.
+								</span>
+							</h1>
+							<p>
+								There are three paths to explore. Development is largely
+								websites and applications. Pixel art has illustrated pixel
+								drawings/concepts and animations. Fine arts has an assortment of
+								paintings, sketches and illustrations.<br></br>
+								<br></br>
+								Relax, take your time among what path(s) you choose.
+							</p>
+						</div>
 					</div>
 					<div className={styles.bannerContainer}>
 						<Link reloadDocument to={"/development"}>
