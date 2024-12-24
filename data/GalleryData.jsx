@@ -135,6 +135,30 @@ if (window.location.pathname === "/pixelArt") {
 } else if (window.location.pathname === "/fineArts") {
 	GalleryData = [
 		{
+			name: "Endless Times",
+			description:
+				"Drawn at Upper Lake Park",
+			imagePath: "/EndlessTimes.JPG",
+		},
+	        {
+			name: "Visual Ghostwriting",
+			description:
+				"Drawn by request of a friend",
+			imagePath: "/visualGhostwriting.JPG",
+		},
+		{
+			name: "Melancholy Eyes",
+			description:
+				"Drawn in New Berlin",
+			imagePath: "/melancholy.JPG",
+		},
+		{
+			name: "Ordinary",
+			description:
+				"Sketch from Mequon Nature Preserve done with Uniball signo 207 0.77mm blue gel pen on paper",
+			imagePath: "/ordinary.JPG",
+		},
+		{
 			name: "Moment",
 			description:
 				"Sketch from Mequon Nature Preserve done with Uniball signo 207 0.77mm blue gel pen on paper",
@@ -195,11 +219,6 @@ if (window.location.pathname === "/pixelArt") {
 			imagePath: "/fineArt6.JPG",
 		},
 		{
-			name: "Juneau Park, Milwaukee",
-			description: "Uniball signo 207 0.77mm blue gel pen on paper",
-			imagePath: "/fineArt7.JPG",
-		},
-		{
 			name: "Lost in a Dream",
 			description: "Acrylic on canvas",
 			imagePath: "/fineArt8.JPG",
@@ -209,11 +228,7 @@ if (window.location.pathname === "/pixelArt") {
 			description: "Acrylic on canvas",
 			imagePath: "/fineArt9.JPG",
 		},
-		{
-			name: "Estabrook Park",
-			description: "Uniball signo 207 0.77mm blue gel pen on paper",
-			imagePath: "/fineArt10.JPG",
-		},
+
 	];
 } else {
 	GalleryData = [
