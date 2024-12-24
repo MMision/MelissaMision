@@ -147,7 +147,7 @@ if (window.location.pathname === "/pixelArt") {
 		{
 			name: "Melancholy Eyes",
 			description: "Drawn in New Berlin",
-			imagePath: "/melancholy.JPG",
+			imagePath: "/melacholy.JPG",
 		},
 		{
 			name: "Ordinary",
