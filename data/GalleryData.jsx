@@ -136,20 +136,17 @@ if (window.location.pathname === "/pixelArt") {
 	GalleryData = [
 		{
 			name: "Endless Times",
-			description:
-				"Drawn at Upper Lake Park",
+			description: "Drawn at Upper Lake Park",
 			imagePath: "/EndlessTimes.JPG",
 		},
-	    {
+		{
 			name: "Visual Ghostwriting",
-			description:
-				"Drawn by request of a friend",
+			description: "Drawn by request of a friend",
 			imagePath: "/visualGhostwriting.JPG",
 		},
 		{
 			name: "Melancholy Eyes",
-			description:
-				"Drawn in New Berlin",
+			description: "Drawn in New Berlin",
 			imagePath: "/melancholy.JPG",
 		},
 		{
@@ -228,7 +225,6 @@ if (window.location.pathname === "/pixelArt") {
 			description: "Acrylic on canvas",
 			imagePath: "/fineArt9.JPG",
 		},
-
 	];
 } else {
 	GalleryData = [
