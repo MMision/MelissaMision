@@ -150,6 +150,12 @@ if (window.location.pathname === "/pixelArt") {
 			imagePath: "/melacholy.JPG",
 		},
 		{
+			name: "Steps in a moment",
+			description:
+				"Drawn at Doctor's Park with Uniball signo 207 0.77mm blue gel pen on paper",
+			imagePath: "/steps.jpg",
+		},
+		{
 			name: "Ordinary",
 			description:
 				"Sketch from Mequon Nature Preserve done with Uniball signo 207 0.77mm blue gel pen on paper",
