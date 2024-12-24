@@ -140,7 +140,7 @@ if (window.location.pathname === "/pixelArt") {
 				"Drawn at Upper Lake Park",
 			imagePath: "/EndlessTimes.JPG",
 		},
-	        {
+	    {
 			name: "Visual Ghostwriting",
 			description:
 				"Drawn by request of a friend",
@@ -164,19 +164,19 @@ if (window.location.pathname === "/pixelArt") {
 				"Sketch from Mequon Nature Preserve done with Uniball signo 207 0.77mm blue gel pen on paper",
 			imagePath: "/fineArt11.JPG",
 		},
-				{
+		{
 			name: "Natures Warmth",
 			description:
 				"Sketch from Doctors park done with Uniball signo 207 0.77mm blue gel pen on paper",
 			imagePath: "/fineArt12.JPG",
 		},
-				{
+		{
 			name: "Alone",
 			description:
 				"Sketch done with Uniball signo 207 0.77mm blue gel pen on paper",
 			imagePath: "/fineArt13.JPG",
 		},
-				{
+		{
 			name: "Emptier Roads",
 			description:
 				"Sketch done with Uniball signo 207 0.77mm blue gel pen on paper",
